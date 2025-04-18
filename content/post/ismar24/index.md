@@ -5,4 +5,4 @@ location: "Seattle, WA"
 layout: activity
 ---
 
-Presented research and networked with XR researchers at the IEEE ISMAR 2024 Conference in Seattle.
+Demo "Fiery Hands" at the IEEE ISMAR 2024 Conference in Seattle.
