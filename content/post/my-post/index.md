@@ -1,4 +1,4 @@
 ---
-title: 📈 Happy new year!
+title: 🌏 Happy new year!
 date: "2025-01-01"
 ---
