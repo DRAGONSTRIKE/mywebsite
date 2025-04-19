@@ -1,4 +1,4 @@
 ---
-title: "Attended ISMAR Conference"
-date: "2024-10-21"
+title: " ✈️ Attended Haptic Symposium Conference"
+date: "2024-4-10"
 ---
