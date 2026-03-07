@@ -51,7 +51,7 @@ sections:
           - publication
         exclude_featured: false
     design:
-      view: card
+      view: 4
   - block: collection
     id: news
     content:
