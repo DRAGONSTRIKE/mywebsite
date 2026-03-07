@@ -52,7 +52,10 @@ jobs:
     
     - name: Install Tailwind CSS
       run: npm install -D tailwindcss
-      
+
+    - name: Fix Tailwind Permissions
+      run: chmod +x ./node_modules/.bin/tailwindcss || true
+
     - name: Build with Hugo
       env:
         HUGO_ENVIRONMENT: production
