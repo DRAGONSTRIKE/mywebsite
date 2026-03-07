@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: 'https://utdallas.box.com/s/p4tsi35zwrz6bkbjl8f5ay843xp436zo'
+        url: '/uploads/resume.pdf'
     design:
       css_class: dark
       background:
@@ -30,20 +30,20 @@ sections:
           size: cover
           position: center
           parallax: false
+  # - block: collection
+  #   id: papers
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     view: citation
+  #     columns: 2
   - block: collection
-    id: papers
     content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
+      title: Publications
       text: ""
       filters:
         folders:

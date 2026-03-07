@@ -27,24 +27,28 @@ summary: ''
 
 tags:
 - Haptic devices
-featured: true
+featured: false
 
 # links:
 # - name: ""
 #   url: ""
-url_pdf: ''
+links:
+- name: Paper
+  url: '/uploads/IMWUT2024_Snow.pdf'
+  icon_pack: fas
+  icon: file-pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
-url_video: ''
+url_video: 'https://youtu.be/rPDaRQhBt2Y?si=qSbaclXQT8vvpJSa'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 

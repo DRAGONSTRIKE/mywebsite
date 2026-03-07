@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hyunjae Gil | Haokun Wang</title>
+    <link>http://localhost:1313/author/hyunjae-gil/</link>
+      <atom:link href="http://localhost:1313/author/hyunjae-gil/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hyunjae Gil</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 11 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_4bc81f2edf496b34.png</url>
+      <title>Hyunjae Gil</title>
+      <link>http://localhost:1313/author/hyunjae-gil/</link>
+    </image>
+    
+    <item>
+      <title>Fiery Hands: Designing Thermal Glove through Thermal and Tactile Integration for Virtual Object Manipulation</title>
+      <link>http://localhost:1313/publication/conference-paper-fiery-hands/</link>
+      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/conference-paper-fiery-hands/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thermal Masking: When the Illusion Takes Over the Real</title>
+      <link>http://localhost:1313/publication/conference-paper-thermal-masking/</link>
+      <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/conference-paper-thermal-masking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mid-Air Thermo-Tactile Feedback using Ultrasound Haptic Display</title>
+      <link>http://localhost:1313/publication/conference-paper-fire/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/conference-paper-fire/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

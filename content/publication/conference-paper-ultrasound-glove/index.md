@@ -43,7 +43,11 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+links:
+- name: Paper
+  url: '/uploads/ISMAR2023_Ultrasoundglove.pdf'
+  icon_pack: fas
+  icon: file-pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''

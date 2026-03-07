@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Morgan Kiani | Haokun Wang</title>
+    <link>http://localhost:1313/author/morgan-kiani/</link>
+      <atom:link href="http://localhost:1313/author/morgan-kiani/index.xml" rel="self" type="application/rss+xml" />
+    <description>Morgan Kiani</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_4bc81f2edf496b34.png</url>
+      <title>Morgan Kiani</title>
+      <link>http://localhost:1313/author/morgan-kiani/</link>
+    </image>
+    
+    <item>
+      <title>Electromagnetic Compatibility Analysis of an Induction Motor Drive With Integrated Power Converter</title>
+      <link>http://localhost:1313/publication/journal-paper-motor-converter/</link>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/journal-paper-motor-converter/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

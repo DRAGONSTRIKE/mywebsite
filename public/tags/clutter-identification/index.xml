@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clutter Identification | Haokun Wang</title>
+    <link>http://localhost:1313/tags/clutter-identification/</link>
+      <atom:link href="http://localhost:1313/tags/clutter-identification/index.xml" rel="self" type="application/rss+xml" />
+    <description>Clutter Identification</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 11 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_4bc81f2edf496b34.png</url>
+      <title>Clutter Identification</title>
+      <link>http://localhost:1313/tags/clutter-identification/</link>
+    </image>
+    
+    <item>
+      <title>A Comparison of cognitive approaches for clutter-distribution identification in nonstationary environments</title>
+      <link>http://localhost:1313/publication/conference-paper-cluter-distribution-identification/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/conference-paper-cluter-distribution-identification/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

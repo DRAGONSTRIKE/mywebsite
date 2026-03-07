@@ -37,14 +37,17 @@ tags:
   - HCI theory, concepts and models
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
-
-url_pdf: ''
+links:
+- name: Paper
+  url: '/uploads/CHI2024_ThermalMasking.pdf'
+  icon_pack: fas
+  icon: file-pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''

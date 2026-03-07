@@ -36,14 +36,18 @@ tags:
   - Haptic 
 
 # Display this page in the Featured widget?
-featured: false
+featured: fasle
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+links:
+- name: Paper
+  url: '/uploads/UIST2024_FieryHands.pdf'
+  icon_pack: fas
+  icon: file-pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''
