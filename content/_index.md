@@ -13,6 +13,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+      title: ""
       text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
@@ -50,7 +51,7 @@ sections:
           - publication
         exclude_featured: false
     design:
-      view: citation
+      view: card
   - block: collection
     id: news
     content:
