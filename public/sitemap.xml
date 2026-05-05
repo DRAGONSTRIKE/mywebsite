@@ -4,96 +4,148 @@
   
   
   <url>
-    <loc>http://localhost:1313/authors/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/authors/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/event/example/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/event/example/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/author/haokun-wang/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/author/haokun-wang/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/post/whc25/</loc><lastmod>2025-07-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/post/whc25/</loc><lastmod>2025-07-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/post/</loc><lastmod>2025-07-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/post/</loc><lastmod>2025-07-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/post/my-post/</loc><lastmod>2025-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/post/my-post/</loc><lastmod>2025-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/post/bhi24/</loc><lastmod>2024-11-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/post/bhi24/</loc><lastmod>2024-11-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/post/ismar24/</loc><lastmod>2024-10-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/post/ismar24/</loc><lastmod>2024-10-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/post/uist24/</loc><lastmod>2024-10-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/post/uist24/</loc><lastmod>2024-10-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/author/daniel-honrales/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/acm-uist/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/publication/conference-paper-fiery-hands/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/ar/vr/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/tags/haptic/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/author/daniel-honrales/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/author/hyunjae-gil/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/publication/conference-paper-fiery-hands/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/author/jin-ryong-kim/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/project/fiery-hands/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/publication_types/paper-conference/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/haptics/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/publication_types/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/hardware-prototyping/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/publication/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/author/hyunjae-gil/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/tags/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/interaction-design/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/publication/conference-paper-thermal-motion/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/author/jin-ryong-kim/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/author/yatharth-singhal/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/publication_types/paper-conference/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/projects/</loc><lastmod>2024-05-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/project/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/publication_types/article-journal/</loc><lastmod>2024-05-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/publication_types/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/tags/haptic-devices/</loc><lastmod>2024-05-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/publication/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/publication/journal-article-snow/</loc><lastmod>2024-05-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/post/chi24/</loc><lastmod>2024-05-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/thermal-feedback/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/tags/hci-theory-concepts-and-models/</loc><lastmod>2024-05-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/publication/conference-paper-thermal-motion/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/publication/conference-paper-thermal-masking/</loc><lastmod>2024-05-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/unity-vr/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/post/haptic24/</loc><lastmod>2024-04-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/user-study/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/experience/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/wearable/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/tags/javascript/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/wearable-haptics/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/teaching/js/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/author/yatharth-singhal/</loc><lastmod>2024-10-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/teaching/python/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/projects/</loc><lastmod>2024-05-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/tags/python/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/acm-imwut/</loc><lastmod>2024-05-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/teaching/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/publication_types/article-journal/</loc><lastmod>2024-05-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/publication/conference-paper-ultrasound-glove/</loc><lastmod>2023-09-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/cross-modal/</loc><lastmod>2024-05-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/author/hyungki-son/</loc><lastmod>2023-02-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/project/let-it-snow/</loc><lastmod>2024-05-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/publication/journal-article-upperbody/</loc><lastmod>2023-02-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/publication/journal-article-snow/</loc><lastmod>2024-05-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/</loc><lastmod>2022-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/mid-air/</loc><lastmod>2024-05-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/publication/conference-paper-fire/</loc><lastmod>2021-09-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/mid-air-haptics/</loc><lastmod>2024-05-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/author/babak-fahimi/</loc><lastmod>2019-12-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/post/chi24/</loc><lastmod>2024-05-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/author/carlos-caicedo-narvaez/</loc><lastmod>2019-12-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/acm-chi/</loc><lastmod>2024-05-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/publication/journal-paper-motor-converter/</loc><lastmod>2019-12-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/hci/</loc><lastmod>2024-05-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/author/mehdi-moallem/</loc><lastmod>2019-12-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/illusion/</loc><lastmod>2024-05-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/author/morgan-kiani/</loc><lastmod>2019-12-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/perceptual-research/</loc><lastmod>2024-05-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/tags/power-converter/</loc><lastmod>2019-12-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:50797/tags/perceptual-study/</loc><lastmod>2024-05-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/author/tianyu-chen/</loc><lastmod>2019-12-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url></urlset>
+    <loc>http://localhost:50797/tags/psychophysics/</loc><lastmod>2024-05-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/project/thermal-masking/</loc><lastmod>2024-05-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/publication/conference-paper-thermal-masking/</loc><lastmod>2024-05-11T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/post/haptic24/</loc><lastmod>2024-04-10T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/experience/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/tags/javascript/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/teaching/js/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/teaching/python/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/tags/python/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/teaching/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/publication/conference-paper-ultrasound-glove/</loc><lastmod>2023-09-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/project/fabric-thermal-display/</loc><lastmod>2023-09-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/tags/ieee-ismar/</loc><lastmod>2023-09-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/tags/ultrasound/</loc><lastmod>2023-09-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/author/hyungki-son/</loc><lastmod>2023-02-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/publication/journal-article-upperbody/</loc><lastmod>2023-02-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/</loc><lastmod>2022-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/tags/acm-vrst/</loc><lastmod>2021-09-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/publication/conference-paper-fire/</loc><lastmod>2021-09-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/project/mid-air-fire-haptics/</loc><lastmod>2021-09-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/author/babak-fahimi/</loc><lastmod>2019-12-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/author/carlos-caicedo-narvaez/</loc><lastmod>2019-12-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/publication/journal-paper-motor-converter/</loc><lastmod>2019-12-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/author/mehdi-moallem/</loc><lastmod>2019-12-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/author/morgan-kiani/</loc><lastmod>2019-12-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/tags/power-converter/</loc><lastmod>2019-12-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:50797/author/tianyu-chen/</loc><lastmod>2019-12-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url></urlset>

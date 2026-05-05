@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Article-Journal | Haokun Wang</title>
-    <link>http://localhost:1313/publication_types/article-journal/</link>
-      <atom:link href="http://localhost:1313/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:50797/publication_types/article-journal/</link>
+      <atom:link href="http://localhost:50797/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
     <description>Article-Journal</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 15 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_4bc81f2edf496b34.png</url>
+      <url>http://localhost:50797/media/icon_hu_4bc81f2edf496b34.png</url>
       <title>Article-Journal</title>
-      <link>http://localhost:1313/publication_types/article-journal/</link>
+      <link>http://localhost:50797/publication_types/article-journal/</link>
     </image>
     
     <item>
       <title>Let It Snow: Designing Snowfall Experience in VR</title>
-      <link>http://localhost:1313/publication/journal-article-snow/</link>
+      <link>http://localhost:50797/publication/journal-article-snow/</link>
       <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/journal-article-snow/</guid>
+      <guid>http://localhost:50797/publication/journal-article-snow/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Upper Body Thermal Referral and Tactile Masking for Localized Feedback</title>
-      <link>http://localhost:1313/publication/journal-article-upperbody/</link>
+      <link>http://localhost:50797/publication/journal-article-upperbody/</link>
       <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/journal-article-upperbody/</guid>
+      <guid>http://localhost:50797/publication/journal-article-upperbody/</guid>
       <description></description>
     </item>
     

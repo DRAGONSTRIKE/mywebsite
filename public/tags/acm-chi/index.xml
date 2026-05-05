@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ACM CHI | Haokun Wang</title>
+    <link>http://localhost:50797/tags/acm-chi/</link>
+      <atom:link href="http://localhost:50797/tags/acm-chi/index.xml" rel="self" type="application/rss+xml" />
+    <description>ACM CHI</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 11 May 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:50797/media/icon_hu_4bc81f2edf496b34.png</url>
+      <title>ACM CHI</title>
+      <link>http://localhost:50797/tags/acm-chi/</link>
+    </image>
+    
+    <item>
+      <title>Thermal Masking: When the Illusion Takes Over the Real</title>
+      <link>http://localhost:50797/project/thermal-masking/</link>
+      <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:50797/project/thermal-masking/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Thermal Masking&lt;/strong&gt; is a newly characterized perceptual illusion: when a vibrotactile stimulus is applied near a thermal stimulus, the &lt;em&gt;perceived location&lt;/em&gt; of warmth completely jumps to the tactile site — the original thermal signal vanishes from conscious perception. This &amp;ldquo;masking&amp;rdquo; is distinct from previously known thermal referral and has profound implications for wearable haptic design.&lt;/p&gt;
+&lt;p&gt;Published at &lt;strong&gt;ACM CHI 2024&lt;/strong&gt; (the flagship venue for human–computer interaction research), this work provides the first systematic characterization of thermal masking on the human arm.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;Thermal feedback in wearables is expensive: Peltier modules are bulky, power-hungry, and slow. Covering a large body area (like the back or full arm) with thermal actuators is impractical. Prior work showed that thermal sensations can be &amp;ldquo;referred&amp;rdquo; — stretched toward a tactile stimulus. But we suspected a more dramatic effect existed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hypothesis:&lt;/strong&gt; A single vibrotactile cue could &lt;em&gt;completely suppress&lt;/em&gt; the original thermal percept, not just shift it — enabling sparse thermal + dense tactile arrays to cover large body areas affordably.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;research-approach&#34;&gt;Research Approach&lt;/h2&gt;
+&lt;p&gt;Three controlled psychophysical experiments on the forearm, each systematically varying one factor:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Experiment&lt;/th&gt;
+          &lt;th&gt;Manipulated Variable&lt;/th&gt;
+          &lt;th&gt;Key Question&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;Temperature level&lt;/td&gt;
+          &lt;td&gt;Does masking occur more at warm vs. hot vs. cold?&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;Thermal-to-tactile distance&lt;/td&gt;
+          &lt;td&gt;How far can masking propagate?&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;3&lt;/td&gt;
+          &lt;td&gt;Actuator placement (same side vs. opposite side of arm)&lt;/td&gt;
+          &lt;td&gt;Does masking cross body-part boundaries?&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Participants reported where they felt the temperature (thermal site, tactile site, or both) on each trial. Masking was defined as reporting &lt;em&gt;only&lt;/em&gt; the tactile site despite the thermal actuator being active elsewhere.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;apparatus&#34;&gt;Apparatus&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Thermal actuator&lt;/strong&gt;: Single Peltier module (40 × 40 mm), range 20°C – 45°C (cold, neutral, warm, hot conditions)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tactile actuator&lt;/strong&gt;: ERM (eccentric rotating mass) motor, 180 Hz, 1.5 G amplitude&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Placement rig&lt;/strong&gt;: 3D-printed sliding rail on the forearm allowing 2–24 cm inter-actuator distance&lt;/li&gt;
+&lt;li&gt;All stimuli were synchronized via Arduino with 1 ms timing precision&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;user-evaluation&#34;&gt;User Evaluation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Total N = 48 participants&lt;/strong&gt; (16 per experiment), all naïve to the hypothesis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Design&lt;/strong&gt;: fully within-subject with counterbalanced ordering&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trial structure&lt;/strong&gt;: 3 s baseline → simultaneous thermal + tactile onset for 5 s → localization report → 30 s ISI for thermal recovery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Measures&lt;/strong&gt;: localization accuracy (thermal site / tactile site / both), response time, confidence rating&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;results--key-findings&#34;&gt;Results &amp;amp; Key Findings&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Experiment 1 — Temperature Level:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Thermal masking rate: &lt;strong&gt;warm: 73%&lt;/strong&gt;, hot: 41%, cold: 38%&lt;/li&gt;
+&lt;li&gt;Warm conditions produced significantly higher masking than hot or cold (χ²(2)=24.3, p&amp;lt;.001)&lt;/li&gt;
+&lt;li&gt;Implication: warm stimulation (≈35–38°C) is the optimal operating zone for masking-based designs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Experiment 2 — Distance:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Masking persisted up to &lt;strong&gt;24 cm&lt;/strong&gt; from the thermal actuator — nearly the full forearm length&lt;/li&gt;
+&lt;li&gt;Masking rate decayed logarithmically with distance (r²=0.91)&lt;/li&gt;
+&lt;li&gt;Practical finding: one thermal module can plausibly cover the entire forearm with tactile array assist&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Experiment 3 — Opposite Side:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Masking also occurred when the tactile actuator was placed on the &lt;em&gt;opposite&lt;/em&gt; side of the arm (dorsal vs. volar)&lt;/li&gt;
+&lt;li&gt;Rate: 58% — lower than same-side but still above chance (p&amp;lt;.001)&lt;/li&gt;
+&lt;li&gt;Opens door to through-limb sensing designs (e.g., armband with actuators only on outer surface)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;design-implications&#34;&gt;Design Implications&lt;/h2&gt;
+&lt;p&gt;These findings directly shaped the actuator placement strategy in 
+ and 
+: by exploiting thermal masking, both projects placed thermal actuators exclusively on non-obstructive surfaces while delivering perceived localized warmth at the inner contact points.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;impact&#34;&gt;Impact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;📄 Published: &lt;strong&gt;ACM CHI 2024&lt;/strong&gt; — &lt;em&gt;Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;DOI: 
+&lt;/li&gt;
+&lt;li&gt;Citation: Haokun Wang, Yatharth Singhal, Hyunjae Gil, Jin Ryong Kim. &amp;ldquo;Thermal Masking: When the Illusion Takes Over the Real.&amp;rdquo; CHI &amp;lsquo;24.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

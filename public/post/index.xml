@@ -2,69 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog | Haokun Wang</title>
-    <link>http://localhost:1313/post/</link>
-      <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:50797/post/</link>
+      <atom:link href="http://localhost:50797/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 12 Jul 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_4bc81f2edf496b34.png</url>
+      <url>http://localhost:50797/media/icon_hu_4bc81f2edf496b34.png</url>
       <title>Blog</title>
-      <link>http://localhost:1313/post/</link>
+      <link>http://localhost:50797/post/</link>
     </image>
     
     <item>
       <title> 🏆 Win Best Demo at WHC 2025</title>
-      <link>http://localhost:1313/post/whc25/</link>
+      <link>http://localhost:50797/post/whc25/</link>
       <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/whc25/</guid>
+      <guid>http://localhost:50797/post/whc25/</guid>
       <description></description>
     </item>
     
     <item>
       <title>📈 Happy new year!</title>
-      <link>http://localhost:1313/post/my-post/</link>
+      <link>http://localhost:50797/post/my-post/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/my-post/</guid>
+      <guid>http://localhost:50797/post/my-post/</guid>
       <description></description>
     </item>
     
     <item>
       <title> ✈️ Attended BHI Conference</title>
-      <link>http://localhost:1313/post/bhi24/</link>
+      <link>http://localhost:50797/post/bhi24/</link>
       <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/bhi24/</guid>
+      <guid>http://localhost:50797/post/bhi24/</guid>
       <description></description>
     </item>
     
     <item>
       <title> ✈️ Attended ISMAR Conference</title>
-      <link>http://localhost:1313/post/ismar24/</link>
+      <link>http://localhost:50797/post/ismar24/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/ismar24/</guid>
+      <guid>http://localhost:50797/post/ismar24/</guid>
       <description></description>
     </item>
     
     <item>
       <title> ✈️ Attended UIST Conference</title>
-      <link>http://localhost:1313/post/uist24/</link>
+      <link>http://localhost:50797/post/uist24/</link>
       <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/uist24/</guid>
+      <guid>http://localhost:50797/post/uist24/</guid>
       <description></description>
     </item>
     
     <item>
       <title> ✈️ Attended CHI Conference</title>
-      <link>http://localhost:1313/post/chi24/</link>
+      <link>http://localhost:50797/post/chi24/</link>
       <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/chi24/</guid>
+      <guid>http://localhost:50797/post/chi24/</guid>
       <description></description>
     </item>
     
     <item>
       <title> ✈️ Attended Haptic Symposium Conference</title>
-      <link>http://localhost:1313/post/haptic24/</link>
+      <link>http://localhost:50797/post/haptic24/</link>
       <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/haptic24/</guid>
+      <guid>http://localhost:50797/post/haptic24/</guid>
       <description></description>
     </item>
     

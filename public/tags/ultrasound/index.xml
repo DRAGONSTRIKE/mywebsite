@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ultrasound | Haokun Wang</title>
+    <link>http://localhost:50797/tags/ultrasound/</link>
+      <atom:link href="http://localhost:50797/tags/ultrasound/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ultrasound</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:50797/media/icon_hu_4bc81f2edf496b34.png</url>
+      <title>Ultrasound</title>
+      <link>http://localhost:50797/tags/ultrasound/</link>
+    </image>
+    
+    <item>
+      <title>Fabric Thermal Display using Ultrasonic Waves</title>
+      <link>http://localhost:50797/publication/conference-paper-ultrasound-glove/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:50797/publication/conference-paper-ultrasound-glove/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fabric Thermal Display: Ultrasound-Heated Wearable for VR</title>
+      <link>http://localhost:50797/project/fabric-thermal-display/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:50797/project/fabric-thermal-display/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Standard thermal wearables rely on Peltier thermoelectric modules — rigid, thick, and power-intensive. &lt;strong&gt;Fabric Thermal Display&lt;/strong&gt; takes a different approach: weave thermally-conductive materials (copper, aluminum mesh) into a fabric glove and excite them with focused ultrasonic waves. The friction heats the conductive fibers, delivering warmth through the fabric itself.&lt;/p&gt;
+&lt;p&gt;Published at &lt;strong&gt;IEEE ISMAR 2023&lt;/strong&gt; (IEEE International Symposium on Mixed and Augmented Reality), this project delivers a proof-of-concept for ultrasound-driven textile thermal displays and demonstrates their use in VR object interaction scenarios.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;Peltier-based thermal gloves work, but they have hard constraints:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Thickness&lt;/strong&gt;: modules are 3–5 mm, stiff, and change the hand&amp;rsquo;s natural shape&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Power&lt;/strong&gt;: each Peltier draws 3–10 W continuously&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scalability&lt;/strong&gt;: covering all fingers requires 5+ modules, complicated wiring, and custom PCBs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Could fabric itself become the thermal actuator — flexible, lightweight, and able to conform to any body shape?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Research Question:&lt;/strong&gt; Which fabric materials respond best to 40 kHz ultrasonic excitation, and can combinations with conductive materials achieve perceptually meaningful warmth for VR?&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;research-approach&#34;&gt;Research Approach&lt;/h2&gt;
+&lt;p&gt;We started with a &lt;strong&gt;material science study&lt;/strong&gt; before touching user testing:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Characterization phase&lt;/strong&gt;: apply ultrasonic energy to 5 fabric types (polyester, cotton, nylon, Lycra, carbon-fiber blend), measure temperature rise over 30 s at three amplitude levels&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Composite phase&lt;/strong&gt;: integrate the best fabric (polyester) with copper mesh and aluminum foil, compare thermal curves&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Perceptual phase&lt;/strong&gt;: user study on thermal detection and level identification with the best material combination&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Application phase&lt;/strong&gt;: integrate into a glove form factor, demonstrate VR use cases&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;system-design&#34;&gt;System Design&lt;/h2&gt;
+&lt;h3 id=&#34;ultrasound-setup&#34;&gt;Ultrasound Setup&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ultrasound driver&lt;/strong&gt;: Ultrahaptics STRATOS board, 40 kHz carrier, amplitude-modulated 0–100%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Focus geometry&lt;/strong&gt;: single focal point directed at 15 cm standoff, corresponding to palm contact zone of glove&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Thermal measurement&lt;/strong&gt;: FLIR A315 thermal camera captured surface temperature maps at 9 Hz&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;fabric-samples&#34;&gt;Fabric Samples&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Material&lt;/th&gt;
+          &lt;th&gt;Peak Temp Rise (100% amp, 30s)&lt;/th&gt;
+          &lt;th&gt;Flexibility&lt;/th&gt;
+          &lt;th&gt;Notes&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Polyester&lt;/td&gt;
+          &lt;td&gt;+18.4°C&lt;/td&gt;
+          &lt;td&gt;High&lt;/td&gt;
+          &lt;td&gt;Best performance&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Cotton&lt;/td&gt;
+          &lt;td&gt;+9.1°C&lt;/td&gt;
+          &lt;td&gt;High&lt;/td&gt;
+          &lt;td&gt;Poor — high thermal mass&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Nylon&lt;/td&gt;
+          &lt;td&gt;+12.3°C&lt;/td&gt;
+          &lt;td&gt;Medium&lt;/td&gt;
+          &lt;td&gt;Acceptable&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Lycra&lt;/td&gt;
+          &lt;td&gt;+7.8°C&lt;/td&gt;
+          &lt;td&gt;Very high&lt;/td&gt;
+          &lt;td&gt;Too low output&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Carbon fiber&lt;/td&gt;
+          &lt;td&gt;+21.1°C&lt;/td&gt;
+          &lt;td&gt;Low&lt;/td&gt;
+          &lt;td&gt;Best thermal, too stiff&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Winner: Polyester + Aluminum&lt;/strong&gt; — +22.6°C peak, flexible, washable&lt;/p&gt;
+&lt;h3 id=&#34;glove-design&#34;&gt;Glove Design&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Polyester base with 0.1 mm aluminum foil laminate on palm zone&lt;/li&gt;
+&lt;li&gt;Total glove weight: 28 g (vs. 95 g for Peltier glove baseline)&lt;/li&gt;
+&lt;li&gt;No wiring — ultrasound is contactless&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;unity-vr-integration&#34;&gt;Unity VR Integration&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Unity 2021 LTS&lt;/strong&gt; + Oculus Integration SDK (Quest 2)&lt;/li&gt;
+&lt;li&gt;Custom &lt;code&gt;FabricHapticManager&lt;/code&gt;: maps virtual object surface temperature to ultrasound amplitude via lookup table&lt;/li&gt;
+&lt;li&gt;Demonstrated VR scenarios: picking up hot metal ingot, holding warm beverage, touching cold ice sculpture&lt;/li&gt;
+&lt;li&gt;Haptic rendering loop runs at 90 Hz, matching display refresh&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;user-evaluation&#34;&gt;User Evaluation&lt;/h2&gt;
+&lt;h3 id=&#34;study-1--detection-thresholds&#34;&gt;Study 1 — Detection Thresholds&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;N = 12 participants&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task&lt;/strong&gt;: signal detection (yes/no) across 5 amplitude levels, 2-AFC paradigm&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Measure&lt;/strong&gt;: warm detection threshold (WDT)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Result&lt;/strong&gt;: mean WDT = 38% amplitude (≈ +7.2°C skin surface delta)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;study-2--level-identification-thermal-jnds&#34;&gt;Study 2 — Level Identification (Thermal JNDs)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;N = 16 participants&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task&lt;/strong&gt;: categorize warmth into 4 levels (none, low, medium, high) from ultrasound-heated glove&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Condition&lt;/strong&gt;: fabric-only vs. fabric+copper vs. fabric+aluminum&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Result&lt;/strong&gt;: fabric+aluminum achieved &lt;strong&gt;78% accuracy&lt;/strong&gt; for 4-level identification, significantly outperforming fabric-only (54%, p&amp;lt;.01) and fabric+copper (66%, p&amp;lt;.05)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;results--key-findings&#34;&gt;Results &amp;amp; Key Findings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Polyester is the optimal base fabric for ultrasonic thermal generation among tested materials&lt;/li&gt;
+&lt;li&gt;Aluminum lamination provides +4.2°C improvement over copper at the same power setting&lt;/li&gt;
+&lt;li&gt;Users could reliably distinguish 4 thermal levels through the glove, meeting the threshold needed for meaningful VR thermal rendering&lt;/li&gt;
+&lt;li&gt;No participant reported discomfort over 20-minute continuous wear sessions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;impact&#34;&gt;Impact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;📄 Published: &lt;strong&gt;IEEE ISMAR 2023&lt;/strong&gt; — &lt;em&gt;IEEE International Symposium on Mixed and Augmented Reality&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;DOI: 
+&lt;/li&gt;
+&lt;li&gt;The material findings fed directly into the Fiery Hands glove substrate design and the broader thermal-wearables research program at MI Lab&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mid-Air Thermo-Tactile Fire: Ultrasound Haptic Display for VR</title>
+      <link>http://localhost:50797/project/mid-air-fire-haptics/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:50797/project/mid-air-fire-haptics/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Imagine reaching toward a virtual campfire and actually feeling the heat wash over your hands — no gloves, no controllers, nothing on your skin. &lt;strong&gt;Mid-Air Thermo-Tactile Fire&lt;/strong&gt; is a proof-of-concept system that delivers both thermal warmth and vibrotactile pressure to a free hand hovering above a custom device, using a combination of heated airflow channels and a 40 kHz ultrasound haptic array.&lt;/p&gt;
+&lt;p&gt;Published at &lt;strong&gt;ACM VRST 2021&lt;/strong&gt; (ACM Symposium on Virtual Reality Software and Technology), this was the first system to simultaneously characterize thermo-tactile mid-air feedback thresholds and demonstrate them in a VR fire interaction scenario.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;Mid-air haptics (ultrasound) had proven that focused pressure can be delivered without contact. Thermal mid-air feedback existed in industrial settings (heat lamps). But &lt;strong&gt;simultaneously combining both&lt;/strong&gt; — localized, controllable, synchronized — for real-time VR had not been demonstrated.&lt;/p&gt;
+&lt;p&gt;Key unknowns at project start:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What temperature range can be achieved mid-air at realistic interaction distances (15–25 cm)?&lt;/li&gt;
+&lt;li&gt;Does the ultrasonic pressure signal interfere with thermal perception (or vice versa)?&lt;/li&gt;
+&lt;li&gt;What warm detection threshold (WDT) and heat-pain threshold (HPDT) apply to mid-air vs. contact thermal stimulation?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;system-design&#34;&gt;System Design&lt;/h2&gt;
+&lt;h3 id=&#34;hardware-architecture&#34;&gt;Hardware Architecture&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ultrasound display&lt;/strong&gt;: 16×16 transducer array (256 elements), 40 kHz carrier, capable of focusing pressure at 10–25 cm above surface&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Thermal channel&lt;/strong&gt;: open-top acrylic chamber with 4 heating coils; a low-speed centrifugal fan directs warm air up through the focus zone&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Temperature control&lt;/strong&gt;: PID loop via Arduino — thermocouple at the focal plane feeds back to heater PWM, ±1°C stability&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integration&lt;/strong&gt;: ultrasound focus point and warm airflow column co-aligned within ±5 mm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;measured-system-specs&#34;&gt;Measured System Specs&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Parameter&lt;/th&gt;
+          &lt;th&gt;Value&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Peak achievable temperature at focal plane&lt;/td&gt;
+          &lt;td&gt;54.2°C&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Ultrasound pressure at focus&lt;/td&gt;
+          &lt;td&gt;3.43 mN (100 Hz, 12 mm radius)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Temperature stability (mean error)&lt;/td&gt;
+          &lt;td&gt;0.25% over 10 min&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Interaction distance range&lt;/td&gt;
+          &lt;td&gt;12–22 cm&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;unity-vr-integration&#34;&gt;Unity VR Integration&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Unity 2020 LTS&lt;/strong&gt; with SteamVR / OpenVR SDK (HTC Vive)&lt;/li&gt;
+&lt;li&gt;Custom C# bridge communicates over USB serial to Arduino controller&lt;/li&gt;
+&lt;li&gt;VR scene: virtual campfire with particle system; hand proximity triggers thermal ramp (further = cooler, closer = warmer) while fire flicker drives vibrotactile modulation at 4–12 Hz&lt;/li&gt;
+&lt;li&gt;Thermal latency from Unity event to onset at skin: ~120 ms (dominated by airflow thermal inertia)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;user-evaluation&#34;&gt;User Evaluation&lt;/h2&gt;
+&lt;h3 id=&#34;threshold-study--wdt-and-hpdt&#34;&gt;Threshold Study — WDT and HPDT&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;N = 14 participants&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Protocol&lt;/strong&gt;: method of limits (ascending/descending); 5 trials per direction, 3 interleaved staircases&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conditions&lt;/strong&gt;: mid-air thermal only (no ultrasound) vs. mid-air thermal + ultrasound (thermo-tactile)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Measures&lt;/strong&gt;: WDT (°C), HPDT (°C), response time to first detection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;haptic-pattern-recognition-study&#34;&gt;Haptic Pattern Recognition Study&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;N = 14 participants&lt;/strong&gt; (same cohort, separate session)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task&lt;/strong&gt;: identify 4 spatial haptic patterns (dot, ring, horizontal bar, vertical bar) presented mid-air&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conditions&lt;/strong&gt;: non-thermal (room temp) vs. thermal-on (heated airflow active)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Measure&lt;/strong&gt;: identification accuracy, confusion matrix&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;vr-experience-study&#34;&gt;VR Experience Study&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;N = 10 participants&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task&lt;/strong&gt;: 5-minute campfire scene; ratings on warmth realism, presence, comfort&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;results--key-findings&#34;&gt;Results &amp;amp; Key Findings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;WDT&lt;/strong&gt;: mean 32.8°C (SD=1.12) — consistent with contact-based thermal WDT literature (validates mid-air stimulation as perceptually equivalent)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HPDT&lt;/strong&gt;: mean 44.6°C (SD=1.64) — also matches contact norms; no elevated pain threshold from airflow delivery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pattern accuracy&lt;/strong&gt;: 98.1% (non-thermal) vs. &lt;strong&gt;97.2% (thermal)&lt;/strong&gt; — no significant degradation (p=.38); thermal channel does not interfere with tactile perception&lt;/li&gt;
+&lt;li&gt;Thermo-tactile condition received significantly higher VR realism ratings than tactile-only (p&amp;lt;.05)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;lessons--evolution&#34;&gt;Lessons &amp;amp; Evolution&lt;/h2&gt;
+&lt;p&gt;This project established the &lt;strong&gt;core technical finding&lt;/strong&gt; that underpins the entire MI Lab thermal haptics research line: thermal and tactile cues can coexist mid-air without masking each other, enabling richer multi-modal VR experiences. Every subsequent project (Snow, Fabric Thermal Display, Fiery Hands) built on these baseline thresholds and the dual-channel architecture proven here.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;impact&#34;&gt;Impact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;📄 Published: &lt;strong&gt;ACM VRST 2021&lt;/strong&gt; — &lt;em&gt;Proceedings of the 27th ACM Symposium on Virtual Reality Software and Technology&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;DOI: 
+&lt;/li&gt;
+&lt;li&gt;First paper characterizing mid-air thermo-tactile thresholds; foundational reference for the lab&amp;rsquo;s subsequent wearable thermal haptics work&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

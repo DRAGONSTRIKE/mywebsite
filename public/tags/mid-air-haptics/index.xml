@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mid-Air Haptics | Haokun Wang</title>
+    <link>http://localhost:50797/tags/mid-air-haptics/</link>
+      <atom:link href="http://localhost:50797/tags/mid-air-haptics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mid-Air Haptics</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 15 May 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:50797/media/icon_hu_4bc81f2edf496b34.png</url>
+      <title>Mid-Air Haptics</title>
+      <link>http://localhost:50797/tags/mid-air-haptics/</link>
+    </image>
+    
+    <item>
+      <title>Let It Snow: Designing Snowfall Experience in VR</title>
+      <link>http://localhost:50797/publication/journal-article-snow/</link>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:50797/publication/journal-article-snow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mid-Air Thermo-Tactile Feedback using Ultrasound Haptic Display</title>
+      <link>http://localhost:50797/publication/conference-paper-fire/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:50797/publication/conference-paper-fire/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

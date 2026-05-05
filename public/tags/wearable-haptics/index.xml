@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wearable Haptics | Haokun Wang</title>
+    <link>http://localhost:50797/tags/wearable-haptics/</link>
+      <atom:link href="http://localhost:50797/tags/wearable-haptics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wearable Haptics</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 11 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:50797/media/icon_hu_4bc81f2edf496b34.png</url>
+      <title>Wearable Haptics</title>
+      <link>http://localhost:50797/tags/wearable-haptics/</link>
+    </image>
+    
+    <item>
+      <title>Fiery Hands: Designing Thermal Glove through Thermal and Tactile Integration for Virtual Object Manipulation</title>
+      <link>http://localhost:50797/publication/conference-paper-fiery-hands/</link>
+      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:50797/publication/conference-paper-fiery-hands/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thermal In Motion: Designing Thermal Flow Illusions with Tactile and Thermal Interaction</title>
+      <link>http://localhost:50797/publication/conference-paper-thermal-motion/</link>
+      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:50797/publication/conference-paper-thermal-motion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fabric Thermal Display using Ultrasonic Waves</title>
+      <link>http://localhost:50797/publication/conference-paper-ultrasound-glove/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:50797/publication/conference-paper-ultrasound-glove/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Upper Body Thermal Referral and Tactile Masking for Localized Feedback</title>
+      <link>http://localhost:50797/publication/journal-article-upperbody/</link>
+      <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:50797/publication/journal-article-upperbody/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

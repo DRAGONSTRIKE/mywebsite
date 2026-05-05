@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cross-Modal | Haokun Wang</title>
+    <link>http://localhost:50797/tags/cross-modal/</link>
+      <atom:link href="http://localhost:50797/tags/cross-modal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cross-Modal</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 15 May 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:50797/media/icon_hu_4bc81f2edf496b34.png</url>
+      <title>Cross-Modal</title>
+      <link>http://localhost:50797/tags/cross-modal/</link>
+    </image>
+    
+    <item>
+      <title>Let It Snow: Cross-Modal Cold &amp; Touch for VR Snowfall</title>
+      <link>http://localhost:50797/project/let-it-snow/</link>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:50797/project/let-it-snow/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Let It Snow&lt;/strong&gt; is a hands-free, wearable-free haptic experience: users hold their bare hands over a custom mid-air display that simultaneously fires focused ultrasound pressure points and directed cold airflow to simulate individual snowflakes landing — or rain drops splattering — on their palms.&lt;/p&gt;
+&lt;p&gt;Published in &lt;strong&gt;ACM IMWUT 2024&lt;/strong&gt; (Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies), the project explores how cross-modal cold–tactile pairing creates emergent sensory illusions greater than either cue alone.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;Simulating precipitation in VR is a classic immersion gap. Visually, snow and rain can look photorealistic. But without &lt;em&gt;feeling&lt;/em&gt; the cold, the wet, the gentle impact — users never quite believe it. Existing approaches require worn devices, which break the &amp;ldquo;bare hand in the weather&amp;rdquo; fantasy entirely.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Questions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Can cold airflow and ultrasound pressure co-localize in mid-air to synthesize a snowflake or raindrop percept?&lt;/li&gt;
+&lt;li&gt;Do cold and tactile cues mask each other, or can they be independently perceived at the same skin location?&lt;/li&gt;
+&lt;li&gt;How should aggregated stimuli be rendered for heavy snowfall / rainfall?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;research-approach&#34;&gt;Research Approach&lt;/h2&gt;
+&lt;p&gt;We drew on &lt;strong&gt;cross-modal sensory integration&lt;/strong&gt; theory: cold and tactile channels are processed by separate neural pathways (thermoreceptors vs. mechanoreceptors), so two signals can coexist without mutual interference — unlike, say, two sounds at the same frequency.&lt;/p&gt;
+&lt;p&gt;Key hypothesis: a brief cold puff + simultaneous pressure focus = snowflake percept; a sharp cold burst + faster pressure = raindrop percept.&lt;/p&gt;
+&lt;p&gt;We also designed an &lt;strong&gt;aggregated haptic scheme&lt;/strong&gt; for particle-dense scenes: rather than rendering every particle individually (physically impossible), we modulate cold intensity and pressure density proportionally to particle count, exploiting temporal summation in both sensory channels.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;system-design&#34;&gt;System Design&lt;/h2&gt;
+&lt;h3 id=&#34;hardware&#34;&gt;Hardware&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cold array&lt;/strong&gt;: 6 Peltier modules (20 × 20 mm) mounted in a ring, each with a micro-fan to direct cold air toward the focus point; temperature range: 5°C–15°C above ambient&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ultrasound haptic display&lt;/strong&gt;: Ultrahaptics STRATOS Inspire — 256 transducers at 40 kHz, creating mid-air pressure foci up to 200 mN at distances up to 22 cm&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Depth tracking&lt;/strong&gt;: Intel RealSense D435 hand tracking, integrated into Unity for palm position → focus point mapping&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Control PC&lt;/strong&gt;: Custom C++ driver for thermal timing; Unity handles audio, visuals, and hand tracking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;unity-vr-integration&#34;&gt;Unity VR Integration&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Built in &lt;strong&gt;Unity 2021 LTS&lt;/strong&gt;, standalone VR scene with Oculus Integration SDK&lt;/li&gt;
+&lt;li&gt;Particle system drives two managers:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;SnowRenderer&lt;/code&gt;: handles visual particles with collision callbacks to trigger haptic events&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;HapticAggregator&lt;/code&gt;: accumulates per-frame particle counts, applies transfer function to Peltier intensity and ultrasound amplitude&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Snowflake percept: 150 ms cold puff + 40 Hz pressure burst; Raindrop: 60 ms sharp cold + 200 Hz single-pulse&lt;/li&gt;
+&lt;li&gt;Scene contains interactive environments: snowy mountain valley, rainstorm on a city rooftop&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;user-evaluation&#34;&gt;User Evaluation&lt;/h2&gt;
+&lt;h3 id=&#34;perceptual-study--cold--tactile-independence&#34;&gt;Perceptual Study — Cold × Tactile Independence&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;N = 14 participants&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Design&lt;/strong&gt;: 2 (cold present/absent) × 2 (tactile present/absent) × 5 repetitions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Measure&lt;/strong&gt;: detection accuracy per modality, reported interference rating&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Finding&lt;/strong&gt;: No significant cross-modal masking — participants detected cold and tactile independently (d&amp;rsquo; &amp;gt; 2.5 for both modalities combined)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;experience-study--aggregated-rendering-comparison&#34;&gt;Experience Study — Aggregated Rendering Comparison&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;N = 20 participants&lt;/strong&gt;, within-subject&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conditions&lt;/strong&gt;: (1) no haptics, (2) tactile-only, (3) cold-only, (4) Snow (cold+tactile sparse), (5) Snow (cold+tactile aggregated)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Measures&lt;/strong&gt;: presence subscale (IPQ), realism rating, preference ranking&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task&lt;/strong&gt;: 3-minute free exploration of snowy mountain scene, 3-minute rainstorm scene&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;results--key-findings&#34;&gt;Results &amp;amp; Key Findings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Aggregated scheme rated significantly more realistic&lt;/strong&gt; than sparse individual-particle scheme (p&amp;lt;.01) for heavy snowfall&lt;/li&gt;
+&lt;li&gt;Cold+tactile combination rated &lt;strong&gt;+1.8 points&lt;/strong&gt; on 7-pt presence scale vs. tactile-only (p&amp;lt;.001)&lt;/li&gt;
+&lt;li&gt;18/20 participants preferred the full cross-modal condition; primary qualitative theme: &amp;ldquo;it actually felt cold and real, like being outside&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;System achieved stable cold delivery at ±0.3°C variance across a 10-minute continuous session&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;impact&#34;&gt;Impact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;📄 Published: &lt;strong&gt;ACM IMWUT 2024&lt;/strong&gt; — &lt;em&gt;Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;DOI: 
+&lt;/li&gt;
+&lt;li&gt;Framework for aggregated haptic rendering has been adopted in follow-on multi-particle VR haptics research&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Let It Snow: Designing Snowfall Experience in VR</title>
+      <link>http://localhost:50797/publication/journal-article-snow/</link>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:50797/publication/journal-article-snow/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

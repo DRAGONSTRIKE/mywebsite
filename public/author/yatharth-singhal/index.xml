@@ -2,69 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yatharth Singhal | Haokun Wang</title>
-    <link>http://localhost:1313/author/yatharth-singhal/</link>
-      <atom:link href="http://localhost:1313/author/yatharth-singhal/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:50797/author/yatharth-singhal/</link>
+      <atom:link href="http://localhost:50797/author/yatharth-singhal/index.xml" rel="self" type="application/rss+xml" />
     <description>Yatharth Singhal</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 11 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_4bc81f2edf496b34.png</url>
+      <url>http://localhost:50797/media/icon_hu_4bc81f2edf496b34.png</url>
       <title>Yatharth Singhal</title>
-      <link>http://localhost:1313/author/yatharth-singhal/</link>
+      <link>http://localhost:50797/author/yatharth-singhal/</link>
     </image>
     
     <item>
       <title>Fiery Hands: Designing Thermal Glove through Thermal and Tactile Integration for Virtual Object Manipulation</title>
-      <link>http://localhost:1313/publication/conference-paper-fiery-hands/</link>
+      <link>http://localhost:50797/publication/conference-paper-fiery-hands/</link>
       <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-paper-fiery-hands/</guid>
+      <guid>http://localhost:50797/publication/conference-paper-fiery-hands/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Thermal In Motion: Designing Thermal Flow Illusions with Tactile and Thermal Interaction</title>
-      <link>http://localhost:1313/publication/conference-paper-thermal-motion/</link>
+      <link>http://localhost:50797/publication/conference-paper-thermal-motion/</link>
       <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-paper-thermal-motion/</guid>
+      <guid>http://localhost:50797/publication/conference-paper-thermal-motion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Let It Snow: Designing Snowfall Experience in VR</title>
-      <link>http://localhost:1313/publication/journal-article-snow/</link>
+      <link>http://localhost:50797/publication/journal-article-snow/</link>
       <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/journal-article-snow/</guid>
+      <guid>http://localhost:50797/publication/journal-article-snow/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Thermal Masking: When the Illusion Takes Over the Real</title>
-      <link>http://localhost:1313/publication/conference-paper-thermal-masking/</link>
+      <link>http://localhost:50797/publication/conference-paper-thermal-masking/</link>
       <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-paper-thermal-masking/</guid>
+      <guid>http://localhost:50797/publication/conference-paper-thermal-masking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fabric Thermal Display using Ultrasonic Waves</title>
-      <link>http://localhost:1313/publication/conference-paper-ultrasound-glove/</link>
+      <link>http://localhost:50797/publication/conference-paper-ultrasound-glove/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-paper-ultrasound-glove/</guid>
+      <guid>http://localhost:50797/publication/conference-paper-ultrasound-glove/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Upper Body Thermal Referral and Tactile Masking for Localized Feedback</title>
-      <link>http://localhost:1313/publication/journal-article-upperbody/</link>
+      <link>http://localhost:50797/publication/journal-article-upperbody/</link>
       <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/journal-article-upperbody/</guid>
+      <guid>http://localhost:50797/publication/journal-article-upperbody/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mid-Air Thermo-Tactile Feedback using Ultrasound Haptic Display</title>
-      <link>http://localhost:1313/publication/conference-paper-fire/</link>
+      <link>http://localhost:50797/publication/conference-paper-fire/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-paper-fire/</guid>
+      <guid>http://localhost:50797/publication/conference-paper-fire/</guid>
       <description></description>
     </item>
     
