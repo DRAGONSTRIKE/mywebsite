@@ -1,0 +1,14 @@
+/* Hugo Blox color theme: CORAL — matches --accent #C8553D */
+:root {
+  --color-primary-50:  255 247 244;
+  --color-primary-100: 255 232 225;
+  --color-primary-200: 255 207 196;
+  --color-primary-300: 249 171 156;
+  --color-primary-400: 219 120 100;
+  --color-primary-500: 200 85 61;
+  --color-primary-600: 178 62 40;
+  --color-primary-700: 150 46 28;
+  --color-primary-800: 120 36 22;
+  --color-primary-900: 96 28 17;
+  --color-primary-950: 54 14 8;
+}

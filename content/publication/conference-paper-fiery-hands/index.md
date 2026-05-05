@@ -33,10 +33,14 @@ abstract: We present a novel approach to render thermal and tactile feedback to 
 summary:
 
 tags:
-  - Haptic 
+  - AR/VR
+  - Wearable Haptics
+  - Hardware Prototyping
+  - User Study
+  - Thermal Feedback
 
 # Display this page in the Featured widget?
-featured: fasle
+featured: true
 
 # Custom links (uncomment lines below)
 # links:
@@ -70,7 +74,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - []
+  - fiery-hands
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

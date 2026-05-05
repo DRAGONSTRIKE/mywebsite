@@ -33,10 +33,14 @@ abstract: This paper presents a fabric-based thermal display of a polyester fabr
 summary:
 
 tags:
-  - Haptic 
+  - AR/VR
+  - Wearable Haptics
+  - Hardware Prototyping
+  - User Study
+  - Ultrasound
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:
@@ -70,7 +74,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - []
+  - fabric-thermal-display
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

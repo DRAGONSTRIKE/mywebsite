@@ -34,10 +34,14 @@ abstract: This study presents a novel method for creating moving thermal sensati
 summary:
 
 tags:
-  - Haptic 
+  - AR/VR
+  - Wearable Haptics
+  - Interaction Design
+  - User Study
+  - Thermal Feedback
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:

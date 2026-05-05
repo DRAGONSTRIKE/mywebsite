@@ -5,8 +5,8 @@
 
 # Appearance
 appearance:
-  mode: system
-  color: sky
+  mode: light
+  color: coral
 
 # SEO
 marketing:
@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: 'Haokun Wang — XR Researcher & Developer. PhD student at UT Dallas MI Lab specializing in haptic interfaces, Unity VR development, and human-computer interaction. 8 publications at ACM CHI, UIST, IMWUT, IEEE VR, ISMAR.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -35,7 +35,7 @@ header:
     show_search: false
     show_theme_chooser: true
     logo:
-      text: "WHKIRL"
+      text: "HW"
 
 # Site footer
 footer:

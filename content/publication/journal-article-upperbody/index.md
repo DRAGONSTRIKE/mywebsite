@@ -27,8 +27,12 @@ abstract: This paper investigates the effects of thermal referral and tactile ma
 summary: ''
 
 tags:
-- Haptic devices
-featured: false
+- AR/VR
+- Wearable Haptics
+- Interaction Design
+- User Study
+- Thermal Feedback
+featured: true
 
 # links:
 # - name: ""

@@ -1,0 +1,14 @@
+/* Hugo Blox color theme: OBSIDIAN (mapped as "violet" slot) */
+:root {
+  --color-primary-50:  224 255 253;
+  --color-primary-100: 178 247 243;
+  --color-primary-200: 102 235 230;
+  --color-primary-300: 0 229 210;
+  --color-primary-400: 0 210 194;
+  --color-primary-500: 0 188 176;
+  --color-primary-600: 0 163 153;
+  --color-primary-700: 0 134 127;
+  --color-primary-800: 0 104 98;
+  --color-primary-900: 0 74 70;
+  --color-primary-950: 0 44 41;
+}

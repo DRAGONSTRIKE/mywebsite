@@ -26,8 +26,12 @@ abstract: We present Snow, a cross-modal interface that integrates cold and tact
 summary: ''
 
 tags:
-- Haptic devices
-featured: false
+- AR/VR
+- Mid-Air Haptics
+- Cross-Modal
+- User Study
+- Thermal Feedback
+featured: true
 
 # links:
 # - name: ""
@@ -58,7 +62,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
+projects:
+  - let-it-snow
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

@@ -34,10 +34,14 @@ abstract: This paper presents a mid-air thermo-tactile feedback system using an 
 summary:
 
 tags:
-  - Haptic devices
+  - AR/VR
+  - Mid-Air Haptics
+  - Hardware Prototyping
+  - User Study
+  - Thermal Feedback
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:
@@ -71,7 +75,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - []
+  - mid-air-fire-haptics
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

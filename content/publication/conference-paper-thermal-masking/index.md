@@ -34,10 +34,14 @@ abstract: This paper reports on a thermal illusion called thermal masking. Therm
 summary:
 
 tags:
-  - HCI theory, concepts and models
+  - AR/VR
+  - Perceptual Research
+  - HCI
+  - User Study
+  - Thermal Feedback
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:
@@ -70,7 +74,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - []
+  - thermal-masking
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

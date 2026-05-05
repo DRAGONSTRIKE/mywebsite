@@ -1,0 +1,161 @@
+{{- define "main" -}}
+
+{{/* ── data ─────────────────────────────────────────────── */}}
+{{- $allPubs  := sort (where site.RegularPages "Section" "publication") "Date" "desc" -}}
+{{- $featured := where $allPubs ".Params.featured" true -}}
+{{- $posts    := first 6 (sort (where site.RegularPages "Section" "post") "Date" "desc") -}}
+{{- $admin    := site.GetPage "/authors/admin" -}}
+{{- $bio      := $admin.Content | plainify | truncate 240 "…" -}}
+
+{{- $grads := slice
+  "linear-gradient(135deg,#2a1d18,#5a2818)"
+  "linear-gradient(135deg,#1a2540,#3b4d80)"
+  "linear-gradient(135deg,#3d2a18,#7a4f30)"
+  "linear-gradient(135deg,#4d1f1a,#923530)"
+  "linear-gradient(135deg,#202938,#4f5e7d)"
+  "linear-gradient(135deg,#1a2630,#356680)"
+  "linear-gradient(135deg,#2a1f30,#4f3a6a)"
+  "linear-gradient(135deg,#1c1c1a,#3a3a36)" -}}
+
+{{/* ━━ NAV ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */}}
+<nav class="hk-nav" role="navigation">
+  <div class="hk-c hk-nav__row">
+    <a class="hk-brand" href="/">{{ site.Title }}</a>
+    <ul class="hk-nav__links">
+      {{ range site.Menus.main -}}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{- end }}
+    </ul>
+  </div>
+</nav>
+
+{{/* ━━ HERO ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */}}
+<header class="hk-hero">
+  <div class="hk-c">
+    <p class="hk-eye">{{ $admin.Params.role }}</p>
+    <h1>Designing how AR&nbsp;/&nbsp;VR <em>feels</em>,<br class="hk-br"> not just how it looks.</h1>
+    <p class="hk-lede">{{ $bio }}</p>
+    <a class="hk-cta" href="/uploads/resume.pdf"><span>Download CV</span><span aria-hidden="true">↓</span></a>
+    <div class="hk-meta">
+      <span>{{ len $allPubs }} publications</span>
+      <span>CHI · UIST · IMWUT · IEEE VR · ISMAR</span>
+      <span>Open to UX / Product roles</span>
+    </div>
+  </div>
+</header>
+
+{{/* ━━ SELECTED WORK ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */}}
+<section class="hk-s" id="work">
+  <div class="hk-c">
+    <div class="hk-sh">
+      <div>
+        <p class="hk-eye">01 — Selected work</p>
+        <h2>Research-driven AR/VR projects.</h2>
+      </div>
+      <p class="hk-sh__desc">Each project is shipped end-to-end: hardware fabrication, interaction prototype, IRB-approved user study, and a peer-reviewed paper at a top HCI venue.</p>
+    </div>
+    <div class="hk-grid">
+      {{- range $i, $p := $featured -}}
+      {{- $g := index $grads (mod $i (len $grads)) -}}
+      <article class="hk-card">
+        {{- with $p.Resources.GetMatch "featured*" -}}
+        <div class="hk-thumb" style="background:{{ $g }}"><img src="{{ .RelPermalink }}" alt="{{ $p.Title }}"></div>
+        {{- else -}}
+        <div class="hk-thumb" style="background:{{ $g }}"><span>{{ $p.Title | truncate 48 "…" }}</span></div>
+        {{- end }}
+        <div class="hk-card__body">
+          <p class="hk-venue">{{ $p.Params.publication_short }}{{ if $p.Date.Year }} {{ $p.Date.Year }}{{ end }}</p>
+          <h3><a href="{{ $p.Permalink }}">{{ $p.Title }}</a></h3>
+          <div class="hk-tags">{{- range $p.Params.tags -}}<span class="hk-tag">{{ . }}</span>{{- end -}}</div>
+        </div>
+      </article>
+      {{- end }}
+    </div>
+  </div>
+</section>
+
+{{/* ━━ ALL PUBLICATIONS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */}}
+<section class="hk-s hk-tint" id="papers">
+  <div class="hk-c">
+    <div class="hk-sh">
+      <div>
+        <p class="hk-eye">02 — All publications</p>
+        <h2>Citation list.</h2>
+      </div>
+    </div>
+    <div class="hk-cites">
+      {{- range $allPubs -}}
+      <div class="hk-cite">
+        <span class="hk-yr">{{ .Date.Year }}</span>
+        <div class="hk-cite__body">
+          <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          <p class="hk-auth">
+            {{- range $i,$a := .Params.authors -}}
+              {{- if gt $i 0 }}, {{ end -}}
+              {{- if eq $a "admin" -}}<b>H. Wang</b>{{- else -}}{{ $a }}{{- end -}}
+            {{- end -}}
+          </p>
+        </div>
+        <span class="hk-vl">{{ .Params.publication_short }}</span>
+      </div>
+      {{- end }}
+    </div>
+  </div>
+</section>
+
+{{/* ━━ APPROACH ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */}}
+<section class="hk-s" id="approach">
+  <div class="hk-c hk-approach">
+    <div>
+      <p class="hk-eye">03 — Approach</p>
+      <h2>Hardware,<br>interaction,<br>evidence.</h2>
+      <p class="hk-muted" style="margin-top:1rem;max-width:46ch">I work end-to-end. Most projects start at a soldering iron and end with a peer-reviewed claim about how people perceive an interaction.</p>
+    </div>
+    <ul class="hk-steps">
+      <li><span class="hk-num">01</span><div><b>Research &amp; framing</b><p>Literature review, competitive teardown, formative interviews.</p></div></li>
+      <li><span class="hk-num">02</span><div><b>Prototyping</b><p>Thermal arrays, ultrasound rigs, gloves, EMG straps + Unity / XR Toolkit interactions.</p></div></li>
+      <li><span class="hk-num">03</span><div><b>User testing</b><p>Within-subject studies, IRB protocols, mixed-methods analysis (quant + think-aloud).</p></div></li>
+      <li><span class="hk-num">04</span><div><b>Communication</b><p>Design implications, papers, deck-ready visuals for stakeholders.</p></div></li>
+    </ul>
+  </div>
+</section>
+
+{{/* ━━ NEWS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */}}
+<section class="hk-s" id="news">
+  <div class="hk-c">
+    <p class="hk-eye">04 — News</p>
+    <ul class="hk-news">
+      {{- range $posts -}}
+      <li>
+        <time>{{ .Date.Format "Jan 2006" }}</time>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+</section>
+
+{{/* ━━ CONTACT ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */}}
+<section class="hk-s hk-dark" id="contact">
+  <div class="hk-c">
+    <p class="hk-eye" style="color:#A09E98">05 — Contact</p>
+    <h2 style="color:#F4F2EC;max-width:18ch;margin-top:.6rem">Let's talk.</h2>
+    <p style="color:#CBC9C2;margin-top:1.5rem;max-width:48ch">Open to <strong style="color:#F4F2EC">UI/UX Research</strong>, <strong style="color:#F4F2EC">Product Design</strong>, and <strong style="color:#F4F2EC">XR Development</strong> roles — full-time or research-focused.</p>
+    <p style="margin-top:2rem">
+      <a class="hk-dl" href="mailto:haokun.wang@utdallas.edu">haokun.wang@utdallas.edu</a> ·
+      <a class="hk-dl" href="https://www.linkedin.com/in/haokun-wang-854548239/">LinkedIn</a> ·
+      <a class="hk-dl" href="https://scholar.google.com/citations?user=AzitNLgAAAAJ">Google Scholar</a> ·
+      <a class="hk-dl" href="https://github.com/whk-irl">GitHub</a>
+    </p>
+  </div>
+</section>
+
+{{/* ━━ FOOTER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */}}
+<footer class="hk-foot">
+  <div class="hk-c hk-foot__row">
+    <span>© {{ now.Year }} {{ site.Title }}</span>
+    <span>Designed and built by hand</span>
+  </div>
+</footer>
+
+{{- end -}}
