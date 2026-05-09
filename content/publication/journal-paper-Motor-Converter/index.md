@@ -38,11 +38,11 @@ abstract: With the development of high-temperature wide bandgap power semiconduc
 summary:
 
 tags:
-  - Power converter
+  - Engineering
+  - Power Electronics
 
 # Display this page in the Featured widget?
-featured: false
-
+featured: true
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link

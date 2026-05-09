@@ -1,21 +1,19 @@
 # SITE SETUP
 # Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Appearance
+# Appearance — light by default for the editorial portfolio look
 appearance:
-  mode: system
-  color: sky
+  mode: light
+  color: stone   # editorial neutral; falls back to default if not built-in
 
 # SEO
 marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    org_name: 'Haokun Wang'
+    description: 'Haokun Wang — UX Researcher and AR/VR interaction designer. Wearable haptics, multisensory feedback, and user studies published at CHI, UIST, IEEE VR, ISMAR.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -35,21 +33,21 @@ header:
     show_search: false
     show_theme_chooser: true
     logo:
-      text: "WHKIRL"
+      text: "Haokun Wang"
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Haokun Wang. Designed and built by hand.'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
 
 # Localization
 locale:
-  date_format: 'Jan 2, 2006'
+  date_format: 'Jan 2006'
   time_format: '3:04 PM'
 
 # Site features
