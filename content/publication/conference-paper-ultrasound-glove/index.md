@@ -33,11 +33,13 @@ abstract: This paper presents a fabric-based thermal display of a polyester fabr
 summary:
 
 tags:
-  - Haptic 
+  - Wearable
+  - AR / VR
+  - Ultrasound
+  - Hardware Prototyping
 
 # Display this page in the Featured widget?
-featured: false
-
+featured: true
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
@@ -80,3 +82,10 @@ projects:
 slides: ""
 ---
 
+<div class="video-embed-wrapper">
+{{< youtube B5AjfdOlMEQ >}}
+</div>
+
+## Overview
+
+This paper presents a fabric-based thermal display combining polyester fabric with thermally-conductive materials (copper, aluminum) and an ultrasound haptic display. Two user studies show that polyester+metal outperforms fabric-only conditions in thermal perception and level identification. A VR glove prototype validates the approach for XR interaction. Published in **ISMAR 2023**.

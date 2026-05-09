@@ -34,11 +34,13 @@ abstract: This study presents a novel method for creating moving thermal sensati
 summary:
 
 tags:
-  - Haptic 
+  - AR / VR
+  - Haptics
+  - Illusion Design
+  - User Study
 
 # Display this page in the Featured widget?
-featured: false
-
+featured: true
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
@@ -81,3 +83,10 @@ projects:
 slides: ""
 ---
 
+<div class="video-embed-wrapper">
+{{< youtube n2H_ylyzcbY >}}
+</div>
+
+## Overview
+
+This study presents a novel method for creating moving thermal sensations by integrating the thermal referral illusion with tactile motion. Three experiments on human forearms identify speed thresholds for perceived thermal motion and validate the approach in VR interaction scenarios. Published in **UIST 2024**.

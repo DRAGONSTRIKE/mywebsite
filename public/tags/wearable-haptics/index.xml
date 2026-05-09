@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wearable Haptics | Haokun Wang</title><link>https://example.com/tags/wearable-haptics/</link><atom:link href="https://example.com/tags/wearable-haptics/index.xml" rel="self" type="application/rss+xml"/><description>Wearable Haptics</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 11 Oct 2024 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/icon_hu_4bc81f2edf496b34.png</url><title>Wearable Haptics</title><link>https://example.com/tags/wearable-haptics/</link></image><item><title>Fiery Hands: Designing Thermal Glove through Thermal and Tactile Integration for Virtual Object Manipulation</title><link>https://example.com/publication/conference-paper-fiery-hands/</link><pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate><guid>https://example.com/publication/conference-paper-fiery-hands/</guid><description>&lt;div class="video-embed-wrapper"&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/M_gZlia0lZ8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- =====================================================================
+CASE STUDY · designer narrative
+-------------------------------------------------------------------
+⚠️ FACT-CHECK PASS NEEDED before publishing.
+Items in [brackets] (e.g. [N=XX], [XX%], [M=X.X]) are PLACEHOLDERS
+drawn from the abstract only — replace them with the real numbers
+from your UIST 2024 paper before pushing live. The narrative,
+framings, and quotes are mine; the headline statistics need yours.
+-------------------------------------------------------------------
+Suggested image filenames to drop into this folder:
+fig-hero.jpg, fig-context.jpg, fig-principle.png,
+fig-proto-v1.jpg, fig-proto-v2.jpg, fig-glove-final.jpg,
+fig-study-setup.jpg, fig-results.png, fig-participant.jpg
+===================================================================== --&gt;
+&lt;h2 id="tldr"&gt;TL;DR&lt;/h2&gt;
+&lt;p&gt;A wearable VR glove that lets you &lt;strong&gt;feel a virtual fireball, touch a hot mug, or rest your palm on cold metal&lt;/strong&gt; — without obstructing how your fingers move. We placed the thermal actuators on the &lt;em&gt;outside&lt;/em&gt; of the hand and used a perceptual illusion (thermal referral + tactile masking) to project the sensation back to the palm and fingertips, where it actually feels meaningful. Three user studies confirm the illusion holds, the patterns read clearly, and the experience makes VR substantially more immersive — all at lower power and bulk than a fingertip-mounted thermal array.&lt;/p&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;Role.&lt;/strong&gt; Lead designer &amp;amp; first author. I owned the hardware iteration, the
+Unity interaction layer, and the three IRB-approved user studies. Co-authors
+contributed signal processing, fabrication support, and the academic framing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Venue&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;UIST 2024 (ACM Symposium on User Interface Software &amp;amp; Technology)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Team&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Me (lead) · Yatharth Singhal · Hyunjae Gil · Prof. Jin Ryong Kim (advisor)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Timeline&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;~9 months from first prototype to camera-ready&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Arduino, Peltier modules, ERM/LRA actuators, Unity 2022, Meta Quest 3, Python (data), R (stats)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Methods&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Within-subject user studies, threshold detection, ANOVA, qualitative think-aloud&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- IMAGE: hero shot of the glove on a hand reaching toward a virtual flame in VR --&gt;
+&lt;!-- ![Fiery Hands glove worn during a VR fire interaction](fig-hero.jpg) --&gt;
+&lt;hr&gt;
+&lt;h2 id="01--context"&gt;01 · Context&lt;/h2&gt;
+&lt;p&gt;VR has gotten very good at fooling your &lt;strong&gt;eyes&lt;/strong&gt; and increasingly good at fooling your &lt;strong&gt;ears&lt;/strong&gt;. Touch lags far behind — and &lt;em&gt;temperature&lt;/em&gt; lags behind that. Yet temperature is what tells you a coffee mug is dangerous, that a campfire is real, that the metal handle in winter is &lt;em&gt;that&lt;/em&gt; kind of cold.&lt;/p&gt;
+&lt;p&gt;Existing VR thermal solutions almost all do the same thing: bolt Peltier elements onto the palm or fingertip pads. That works in a lab, but it has two design-killing problems:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Obstruction.&lt;/strong&gt; A Peltier on the fingertip blocks the very surface you use to grip, type, or pinch. Users stop manipulating objects naturally.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Power &amp;amp; bulk.&lt;/strong&gt; Each thermal cell needs a heat sink and a non-trivial current draw, so you end up trading away mobility for sensation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I wanted to keep the palm and fingerpads free &lt;em&gt;and&lt;/em&gt; still deliver a thermal sensation that lands in those places. That meant looking past hardware and into perception.&lt;/p&gt;
+&lt;!-- IMAGE: side-by-side photo: existing fingertip thermal display vs. our glove --&gt;
+&lt;!-- ![Fingertip thermal arrays vs. our outside-the-hand layout](fig-context.jpg) --&gt;
+&lt;hr&gt;
+&lt;h2 id="02--research"&gt;02 · Research&lt;/h2&gt;
+&lt;p&gt;I started with a literature scan across haptics conferences (CHI, UIST, IEEE WHC, IEEE VR) and a teardown of every commercial VR haptic glove I could borrow or buy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Two findings shaped the rest of the project:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Thermal referral&lt;/strong&gt; — discovered in tactile psychophysics in the 1970s — shows that the brain projects a thermal sensation toward a co-located &lt;em&gt;non-thermal&lt;/em&gt; tactile cue. If I vibrate your palm while heating a spot 4 cm away, you feel the heat &lt;em&gt;at the vibration&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tactile masking&lt;/strong&gt; — a vibrotactile cue at the right amplitude can suppress competing tactile noise on adjacent skin, making the referred sensation feel cleaner and more localized.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Combine the two and you have a free design move: put the heat where it&amp;rsquo;s &lt;em&gt;easy to mount&lt;/em&gt; (back of hand), put the vibration where it &lt;em&gt;should be felt&lt;/em&gt; (palm and fingerpads), and the brain quietly does the rest.&lt;/p&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;Insight.&lt;/strong&gt; The hardware doesn&amp;rsquo;t need to be where the sensation lives — perception will move it for us, if we lay out the cues correctly.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!-- IMAGE: annotated diagram of thermal referral + tactile masking principle --&gt;
+&lt;!-- ![Thermal referral + tactile masking — sensation moves from heat site to vibration site](fig-principle.png) --&gt;
+&lt;hr&gt;
+&lt;h2 id="03--prototyping"&gt;03 · Prototyping&lt;/h2&gt;
+&lt;p&gt;Three iterations, each a useful failure or a useful win.&lt;/p&gt;
+&lt;h3 id="v1--bench-rig"&gt;V1 — bench rig&lt;/h3&gt;
+&lt;p&gt;Four Peltier modules taped to the back of a glove, four LRA vibration motors taped to the palm. Wired to an Arduino. Ugly, but the question was perceptual, not industrial — &lt;em&gt;can people feel the referred sensation at all?&lt;/em&gt; Answer: yes, but inconsistently — masking only worked in a narrow amplitude band.&lt;/p&gt;
+&lt;!-- IMAGE: V1 bench prototype with exposed wires --&gt;
+&lt;!-- ![V1 — bench-top prototype](fig-proto-v1.jpg) --&gt;
+&lt;h3 id="v2--sewn-glove"&gt;V2 — sewn glove&lt;/h3&gt;
+&lt;p&gt;Pivoted to a sewn knit glove with the thermals on the dorsal side and tactile motors stitched into the palm fabric. Added a small custom PCB so amplitude could be modulated per-channel. Now the masking band was easy to hit, but heat dissipation became the problem — the back of the glove got uncomfortably warm during longer trials.&lt;/p&gt;
+&lt;h3 id="v3--final-with-heat-spreader-and-mode-logic"&gt;V3 — final, with heat-spreader and mode logic&lt;/h3&gt;
+&lt;p&gt;Added a thin copper-foil heat spreader between the Peltier and the glove fabric, and a software mode that pulse-cycled the thermal element rather than running it continuously. Same perceptual quality, lower sustained thermal load. &lt;em&gt;(swap the bracketed values for your measured power numbers when you fill this in.)&lt;/em&gt; This is the version that went into the user study and the VR demo.&lt;/p&gt;
+&lt;!-- IMAGE: V3 final glove worn on a hand, dorsal view --&gt;
+&lt;!-- ![V3 — final glove with heat spreader visible on the dorsal side](fig-glove-final.jpg) --&gt;
+&lt;hr&gt;
+&lt;h2 id="04--user-study"&gt;04 · User study&lt;/h2&gt;
+&lt;!-- TODO replace [N], [conditions], and the bracketed result numbers below with the real values from your paper. --&gt;
+&lt;p&gt;A &lt;strong&gt;within-subject study with N=[XX]&lt;/strong&gt; (counterbalanced order, [X] conditions, IRB approved). Two questions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Can participants reliably localize a &lt;em&gt;referred&lt;/em&gt; thermal sensation to specific palm/finger zones?&lt;/li&gt;
+&lt;li&gt;Does the referred condition match a baseline of palm-mounted thermals on perceived realism and comfort?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Protocol.&lt;/strong&gt; Each participant wore the glove and an HMD. Across blocks, we presented thermal patterns under two layouts (palm-mounted vs. dorsal+masking) and asked them to (a) point to where they felt the sensation, and (b) rate realism and comfort on a 7-point scale. We logged response time, accuracy, and verbatim think-aloud.&lt;/p&gt;
+&lt;!-- IMAGE: study setup — participant in HMD wearing glove, researcher logging trials --&gt;
+&lt;!-- ![Study setup in the lab](fig-study-setup.jpg) --&gt;
+&lt;p&gt;&lt;strong&gt;Findings.&lt;/strong&gt; &lt;em&gt;(replace bracketed numbers with the actual values from your UIST 2024 paper)&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Localization accuracy&lt;/strong&gt; in the referred condition: &lt;strong&gt;[XX%]&lt;/strong&gt; vs. &lt;strong&gt;[XX%]&lt;/strong&gt; for direct palm-mounted — the illusion holds.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comfort rating&lt;/strong&gt; was higher for the referred condition (&lt;strong&gt;[M=X.X vs. X.X, p&amp;lt;.0X]&lt;/strong&gt;), driven by the absence of warm pads on the palm itself.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manipulation success&lt;/strong&gt; in the follow-up VR task (grasping a hot mug, picking up an ice cube) improved with the referred layout because fingertips stayed unobstructed.&lt;/li&gt;
+&lt;li&gt;Several participants spontaneously said the referred condition felt &amp;ldquo;more like real heat&amp;rdquo; — they couldn&amp;rsquo;t articulate why, which is exactly what you want from a perceptual illusion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- IMAGE: results chart — accuracy + comfort + task-success bars across conditions --&gt;
+&lt;!-- ![Key results across the three measures](fig-results.png) --&gt;
+&lt;hr&gt;
+&lt;h2 id="05--outcome"&gt;05 · Outcome&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Accepted to &lt;strong&gt;UIST 2024&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;The technique generalizes: the same dorsal-thermal + palm-tactile layout is now informing follow-on work on full-arm thermal sleeves.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="06--reflection"&gt;06 · Reflection&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;What I&amp;rsquo;d do differently.&lt;/strong&gt; I underestimated thermal &lt;em&gt;latency&lt;/em&gt;. Even with the heat-spreader trick, transitioning from cold→hot still takes ~1.2 s, which limits how reactive virtual objects can feel. Next iteration I&amp;rsquo;m exploring solid-state Peltier driving with predictive pre-heating tied to gaze.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What I&amp;rsquo;d push back on if I had more time.&lt;/strong&gt; The study was lab-bound. I want to see how the illusion holds up over a 30-minute VR session, not 90 seconds — sensory adaptation is the next big unknown.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What this taught me about designing for novel hardware.&lt;/strong&gt; &lt;em&gt;Perception is a design material.&lt;/em&gt; Hardware budgets are limited; perception is free. Whenever a project starts with &amp;ldquo;we need an actuator at point X,&amp;rdquo; the right next question is &amp;ldquo;do we, or can we put it at Y and let the brain do the rest?&amp;rdquo;&lt;/p&gt;
+&lt;!-- IMAGE: candid shot of participant taking the glove off, smiling — humanizes the page --&gt;
+&lt;!-- ![A participant after a VR session with the glove](fig-participant.jpg) --&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;If you want to dig into the methodology, the full paper is linked above. Happy to talk through the design decisions in detail —
+.&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>

@@ -34,11 +34,13 @@ abstract: This paper presents a mid-air thermo-tactile feedback system using an 
 summary:
 
 tags:
-  - Haptic devices
+  - Mid-Air Haptics
+  - Ultrasound
+  - VR
+  - Hardware Prototyping
 
 # Display this page in the Featured widget?
-featured: false
-
+featured: true
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
@@ -81,3 +83,10 @@ projects:
 slides: ""
 ---
 
+<div class="video-embed-wrapper">
+{{< youtube CKSEIOUzGK0 >}}
+</div>
+
+## Overview
+
+This paper presents a mid-air thermo-tactile feedback system using an ultrasound haptic display. A proof-of-concept open-top chamber with heat modules generates thermal and vibrotactile cues simultaneously in mid-air — confirmed up to 54.2°C with pattern identification accuracy matching contact-based thresholds. Published in **VRST 2021**.

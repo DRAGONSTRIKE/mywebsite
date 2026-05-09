@@ -27,9 +27,11 @@ abstract: This paper investigates the effects of thermal referral and tactile ma
 summary: ''
 
 tags:
-- Haptic devices
-featured: false
-
+  - Haptics
+  - VR
+  - Perception
+  - User Study
+featured: true
 # links:
 # - name: ""
 #   url: ""
@@ -44,7 +46,7 @@ url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
-url_video: ''
+url_video: 'https://www.youtube.com/watch?v=cgvujLOi6pc'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -69,3 +71,12 @@ projects: []
 slides: ""
 ---
 
+<div class="video-embed-wrapper">
+{{< youtube cgvujLOi6pc >}}
+</div>
+
+## Overview
+
+This paper investigates the effects of thermal referral and tactile masking illusions to achieve localized thermal feedback on the upper body. Using a 2D array of sixteen vibrotactile actuators (4×4) with four thermal actuators, we explore how cross-modal thermo-tactile interaction can deliver localized thermal sensations across the user's back — enabling wearable designs that achieve greater user performance with fewer thermal actuators.
+
+Published in **IEEE Transactions on Visualization and Computer Graphics (TVCG)**.

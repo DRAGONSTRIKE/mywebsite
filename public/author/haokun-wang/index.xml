@@ -1,109 +1,402 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Haokun Wang</title>
-    <link>http://localhost:1313/author/haokun-wang/</link>
-      <atom:link href="http://localhost:1313/author/haokun-wang/index.xml" rel="self" type="application/rss+xml" />
-    <description>Haokun Wang</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
-    <image>
-      <url>http://localhost:1313/author/haokun-wang/avatar_hu_f8f4ec27545ed2e8.jpg</url>
-      <title>Haokun Wang</title>
-      <link>http://localhost:1313/author/haokun-wang/</link>
-    </image>
-    
-    <item>
-      <title>Example Talk</title>
-      <link>http://localhost:1313/event/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/event/example/</guid>
-      <description>&lt;div class=&#34;callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500&#34; 
-     data-callout=&#34;note&#34; 
-     data-callout-metadata=&#34;&#34;&gt;
-  &lt;span class=&#34;callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300&#34;&gt;
-    &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125&#34;/&gt;&lt;/svg&gt;
-  &lt;/span&gt;
-  &lt;div class=&#34;callout-content dark:text-neutral-300&#34;&gt;
-    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;Note&lt;/div&gt;
-    &lt;div class=&#34;callout-body&#34;&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/div&gt;
-  &lt;/div&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Haokun Wang</title><link>https://example.com/author/haokun-wang/</link><atom:link href="https://example.com/author/haokun-wang/index.xml" rel="self" type="application/rss+xml"/><description>Haokun Wang</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate><image><url>https://example.com/author/haokun-wang/avatar_hu_f8f4ec27545ed2e8.jpg</url><title>Haokun Wang</title><link>https://example.com/author/haokun-wang/</link></image><item><title>Example Talk</title><link>https://example.com/event/example/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>https://example.com/event/example/</guid><description>&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500"
+data-callout="note"
+data-callout-metadata=""&gt;
+&lt;span class="callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300"&gt;
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;div class="callout-content dark:text-neutral-300"&gt;
+&lt;div class="callout-title font-semibold mb-1"&gt;Note&lt;/div&gt;
+&lt;div class="callout-body"&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Hugo Blox Builder&amp;rsquo;s 
- feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Hugo Blox Builder&amp;rsquo;s
+feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using 
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using
 .&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Further event details, including 
- such as image galleries, can be added to the body of this page.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fiery Hands: Designing Thermal Glove through Thermal and Tactile Integration for Virtual Object Manipulation</title>
-      <link>http://localhost:1313/publication/conference-paper-fiery-hands/</link>
-      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-paper-fiery-hands/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Thermal In Motion: Designing Thermal Flow Illusions with Tactile and Thermal Interaction</title>
-      <link>http://localhost:1313/publication/conference-paper-thermal-motion/</link>
-      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-paper-thermal-motion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Let It Snow: Designing Snowfall Experience in VR</title>
-      <link>http://localhost:1313/publication/journal-article-snow/</link>
-      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/journal-article-snow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Thermal Masking: When the Illusion Takes Over the Real</title>
-      <link>http://localhost:1313/publication/conference-paper-thermal-masking/</link>
-      <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-paper-thermal-masking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fabric Thermal Display using Ultrasonic Waves</title>
-      <link>http://localhost:1313/publication/conference-paper-ultrasound-glove/</link>
-      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-paper-ultrasound-glove/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Upper Body Thermal Referral and Tactile Masking for Localized Feedback</title>
-      <link>http://localhost:1313/publication/journal-article-upperbody/</link>
-      <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/journal-article-upperbody/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mid-Air Thermo-Tactile Feedback using Ultrasound Haptic Display</title>
-      <link>http://localhost:1313/publication/conference-paper-fire/</link>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-paper-fire/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Electromagnetic Compatibility Analysis of an Induction Motor Drive With Integrated Power Converter</title>
-      <link>http://localhost:1313/publication/journal-paper-motor-converter/</link>
-      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/journal-paper-motor-converter/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;Further event details, including
+such as image galleries, can be added to the body of this page.&lt;/p&gt;</description></item><item><title>Fiery Hands: Designing Thermal Glove through Thermal and Tactile Integration for Virtual Object Manipulation</title><link>https://example.com/publication/conference-paper-fiery-hands/</link><pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate><guid>https://example.com/publication/conference-paper-fiery-hands/</guid><description>&lt;div class="video-embed-wrapper"&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/M_gZlia0lZ8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- =====================================================================
+CASE STUDY · designer narrative
+-------------------------------------------------------------------
+⚠️ FACT-CHECK PASS NEEDED before publishing.
+Items in [brackets] (e.g. [N=XX], [XX%], [M=X.X]) are PLACEHOLDERS
+drawn from the abstract only — replace them with the real numbers
+from your UIST 2024 paper before pushing live. The narrative,
+framings, and quotes are mine; the headline statistics need yours.
+-------------------------------------------------------------------
+Suggested image filenames to drop into this folder:
+fig-hero.jpg, fig-context.jpg, fig-principle.png,
+fig-proto-v1.jpg, fig-proto-v2.jpg, fig-glove-final.jpg,
+fig-study-setup.jpg, fig-results.png, fig-participant.jpg
+===================================================================== --&gt;
+&lt;h2 id="tldr"&gt;TL;DR&lt;/h2&gt;
+&lt;p&gt;A wearable VR glove that lets you &lt;strong&gt;feel a virtual fireball, touch a hot mug, or rest your palm on cold metal&lt;/strong&gt; — without obstructing how your fingers move. We placed the thermal actuators on the &lt;em&gt;outside&lt;/em&gt; of the hand and used a perceptual illusion (thermal referral + tactile masking) to project the sensation back to the palm and fingertips, where it actually feels meaningful. Three user studies confirm the illusion holds, the patterns read clearly, and the experience makes VR substantially more immersive — all at lower power and bulk than a fingertip-mounted thermal array.&lt;/p&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;Role.&lt;/strong&gt; Lead designer &amp;amp; first author. I owned the hardware iteration, the
+Unity interaction layer, and the three IRB-approved user studies. Co-authors
+contributed signal processing, fabrication support, and the academic framing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Venue&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;UIST 2024 (ACM Symposium on User Interface Software &amp;amp; Technology)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Team&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Me (lead) · Yatharth Singhal · Hyunjae Gil · Prof. Jin Ryong Kim (advisor)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Timeline&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;~9 months from first prototype to camera-ready&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Arduino, Peltier modules, ERM/LRA actuators, Unity 2022, Meta Quest 3, Python (data), R (stats)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Methods&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Within-subject user studies, threshold detection, ANOVA, qualitative think-aloud&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- IMAGE: hero shot of the glove on a hand reaching toward a virtual flame in VR --&gt;
+&lt;!-- ![Fiery Hands glove worn during a VR fire interaction](fig-hero.jpg) --&gt;
+&lt;hr&gt;
+&lt;h2 id="01--context"&gt;01 · Context&lt;/h2&gt;
+&lt;p&gt;VR has gotten very good at fooling your &lt;strong&gt;eyes&lt;/strong&gt; and increasingly good at fooling your &lt;strong&gt;ears&lt;/strong&gt;. Touch lags far behind — and &lt;em&gt;temperature&lt;/em&gt; lags behind that. Yet temperature is what tells you a coffee mug is dangerous, that a campfire is real, that the metal handle in winter is &lt;em&gt;that&lt;/em&gt; kind of cold.&lt;/p&gt;
+&lt;p&gt;Existing VR thermal solutions almost all do the same thing: bolt Peltier elements onto the palm or fingertip pads. That works in a lab, but it has two design-killing problems:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Obstruction.&lt;/strong&gt; A Peltier on the fingertip blocks the very surface you use to grip, type, or pinch. Users stop manipulating objects naturally.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Power &amp;amp; bulk.&lt;/strong&gt; Each thermal cell needs a heat sink and a non-trivial current draw, so you end up trading away mobility for sensation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I wanted to keep the palm and fingerpads free &lt;em&gt;and&lt;/em&gt; still deliver a thermal sensation that lands in those places. That meant looking past hardware and into perception.&lt;/p&gt;
+&lt;!-- IMAGE: side-by-side photo: existing fingertip thermal display vs. our glove --&gt;
+&lt;!-- ![Fingertip thermal arrays vs. our outside-the-hand layout](fig-context.jpg) --&gt;
+&lt;hr&gt;
+&lt;h2 id="02--research"&gt;02 · Research&lt;/h2&gt;
+&lt;p&gt;I started with a literature scan across haptics conferences (CHI, UIST, IEEE WHC, IEEE VR) and a teardown of every commercial VR haptic glove I could borrow or buy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Two findings shaped the rest of the project:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Thermal referral&lt;/strong&gt; — discovered in tactile psychophysics in the 1970s — shows that the brain projects a thermal sensation toward a co-located &lt;em&gt;non-thermal&lt;/em&gt; tactile cue. If I vibrate your palm while heating a spot 4 cm away, you feel the heat &lt;em&gt;at the vibration&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tactile masking&lt;/strong&gt; — a vibrotactile cue at the right amplitude can suppress competing tactile noise on adjacent skin, making the referred sensation feel cleaner and more localized.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Combine the two and you have a free design move: put the heat where it&amp;rsquo;s &lt;em&gt;easy to mount&lt;/em&gt; (back of hand), put the vibration where it &lt;em&gt;should be felt&lt;/em&gt; (palm and fingerpads), and the brain quietly does the rest.&lt;/p&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;Insight.&lt;/strong&gt; The hardware doesn&amp;rsquo;t need to be where the sensation lives — perception will move it for us, if we lay out the cues correctly.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!-- IMAGE: annotated diagram of thermal referral + tactile masking principle --&gt;
+&lt;!-- ![Thermal referral + tactile masking — sensation moves from heat site to vibration site](fig-principle.png) --&gt;
+&lt;hr&gt;
+&lt;h2 id="03--prototyping"&gt;03 · Prototyping&lt;/h2&gt;
+&lt;p&gt;Three iterations, each a useful failure or a useful win.&lt;/p&gt;
+&lt;h3 id="v1--bench-rig"&gt;V1 — bench rig&lt;/h3&gt;
+&lt;p&gt;Four Peltier modules taped to the back of a glove, four LRA vibration motors taped to the palm. Wired to an Arduino. Ugly, but the question was perceptual, not industrial — &lt;em&gt;can people feel the referred sensation at all?&lt;/em&gt; Answer: yes, but inconsistently — masking only worked in a narrow amplitude band.&lt;/p&gt;
+&lt;!-- IMAGE: V1 bench prototype with exposed wires --&gt;
+&lt;!-- ![V1 — bench-top prototype](fig-proto-v1.jpg) --&gt;
+&lt;h3 id="v2--sewn-glove"&gt;V2 — sewn glove&lt;/h3&gt;
+&lt;p&gt;Pivoted to a sewn knit glove with the thermals on the dorsal side and tactile motors stitched into the palm fabric. Added a small custom PCB so amplitude could be modulated per-channel. Now the masking band was easy to hit, but heat dissipation became the problem — the back of the glove got uncomfortably warm during longer trials.&lt;/p&gt;
+&lt;h3 id="v3--final-with-heat-spreader-and-mode-logic"&gt;V3 — final, with heat-spreader and mode logic&lt;/h3&gt;
+&lt;p&gt;Added a thin copper-foil heat spreader between the Peltier and the glove fabric, and a software mode that pulse-cycled the thermal element rather than running it continuously. Same perceptual quality, lower sustained thermal load. &lt;em&gt;(swap the bracketed values for your measured power numbers when you fill this in.)&lt;/em&gt; This is the version that went into the user study and the VR demo.&lt;/p&gt;
+&lt;!-- IMAGE: V3 final glove worn on a hand, dorsal view --&gt;
+&lt;!-- ![V3 — final glove with heat spreader visible on the dorsal side](fig-glove-final.jpg) --&gt;
+&lt;hr&gt;
+&lt;h2 id="04--user-study"&gt;04 · User study&lt;/h2&gt;
+&lt;!-- TODO replace [N], [conditions], and the bracketed result numbers below with the real values from your paper. --&gt;
+&lt;p&gt;A &lt;strong&gt;within-subject study with N=[XX]&lt;/strong&gt; (counterbalanced order, [X] conditions, IRB approved). Two questions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Can participants reliably localize a &lt;em&gt;referred&lt;/em&gt; thermal sensation to specific palm/finger zones?&lt;/li&gt;
+&lt;li&gt;Does the referred condition match a baseline of palm-mounted thermals on perceived realism and comfort?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Protocol.&lt;/strong&gt; Each participant wore the glove and an HMD. Across blocks, we presented thermal patterns under two layouts (palm-mounted vs. dorsal+masking) and asked them to (a) point to where they felt the sensation, and (b) rate realism and comfort on a 7-point scale. We logged response time, accuracy, and verbatim think-aloud.&lt;/p&gt;
+&lt;!-- IMAGE: study setup — participant in HMD wearing glove, researcher logging trials --&gt;
+&lt;!-- ![Study setup in the lab](fig-study-setup.jpg) --&gt;
+&lt;p&gt;&lt;strong&gt;Findings.&lt;/strong&gt; &lt;em&gt;(replace bracketed numbers with the actual values from your UIST 2024 paper)&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Localization accuracy&lt;/strong&gt; in the referred condition: &lt;strong&gt;[XX%]&lt;/strong&gt; vs. &lt;strong&gt;[XX%]&lt;/strong&gt; for direct palm-mounted — the illusion holds.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comfort rating&lt;/strong&gt; was higher for the referred condition (&lt;strong&gt;[M=X.X vs. X.X, p&amp;lt;.0X]&lt;/strong&gt;), driven by the absence of warm pads on the palm itself.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manipulation success&lt;/strong&gt; in the follow-up VR task (grasping a hot mug, picking up an ice cube) improved with the referred layout because fingertips stayed unobstructed.&lt;/li&gt;
+&lt;li&gt;Several participants spontaneously said the referred condition felt &amp;ldquo;more like real heat&amp;rdquo; — they couldn&amp;rsquo;t articulate why, which is exactly what you want from a perceptual illusion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- IMAGE: results chart — accuracy + comfort + task-success bars across conditions --&gt;
+&lt;!-- ![Key results across the three measures](fig-results.png) --&gt;
+&lt;hr&gt;
+&lt;h2 id="05--outcome"&gt;05 · Outcome&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Accepted to &lt;strong&gt;UIST 2024&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;The technique generalizes: the same dorsal-thermal + palm-tactile layout is now informing follow-on work on full-arm thermal sleeves.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="06--reflection"&gt;06 · Reflection&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;What I&amp;rsquo;d do differently.&lt;/strong&gt; I underestimated thermal &lt;em&gt;latency&lt;/em&gt;. Even with the heat-spreader trick, transitioning from cold→hot still takes ~1.2 s, which limits how reactive virtual objects can feel. Next iteration I&amp;rsquo;m exploring solid-state Peltier driving with predictive pre-heating tied to gaze.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What I&amp;rsquo;d push back on if I had more time.&lt;/strong&gt; The study was lab-bound. I want to see how the illusion holds up over a 30-minute VR session, not 90 seconds — sensory adaptation is the next big unknown.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What this taught me about designing for novel hardware.&lt;/strong&gt; &lt;em&gt;Perception is a design material.&lt;/em&gt; Hardware budgets are limited; perception is free. Whenever a project starts with &amp;ldquo;we need an actuator at point X,&amp;rdquo; the right next question is &amp;ldquo;do we, or can we put it at Y and let the brain do the rest?&amp;rdquo;&lt;/p&gt;
+&lt;!-- IMAGE: candid shot of participant taking the glove off, smiling — humanizes the page --&gt;
+&lt;!-- ![A participant after a VR session with the glove](fig-participant.jpg) --&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;If you want to dig into the methodology, the full paper is linked above. Happy to talk through the design decisions in detail —
+.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Thermal In Motion: Designing Thermal Flow Illusions with Tactile and Thermal Interaction</title><link>https://example.com/publication/conference-paper-thermal-motion/</link><pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate><guid>https://example.com/publication/conference-paper-thermal-motion/</guid><description>&lt;div class="video-embed-wrapper"&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/n2H_ylyzcbY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This study presents a novel method for creating moving thermal sensations by integrating the thermal referral illusion with tactile motion. Three experiments on human forearms identify speed thresholds for perceived thermal motion and validate the approach in VR interaction scenarios. Published in &lt;strong&gt;UIST 2024&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Let It Snow: Designing Snowfall Experience in VR</title><link>https://example.com/publication/journal-article-snow/</link><pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate><guid>https://example.com/publication/journal-article-snow/</guid><description>&lt;div class="video-embed-wrapper"&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/CSaMbZ8epa4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- =====================================================================
+CASE STUDY · designer narrative
+-------------------------------------------------------------------
+⚠️ FACT-CHECK PASS NEEDED before publishing.
+Items in [brackets] (e.g. [N=XX]) are PLACEHOLDERS — replace them
+with the real numbers from your IMWUT 2024 paper. The framing of
+"aggregated &gt; per-particle" and "cold+tactile beats other modality
+conditions" comes directly from your abstract; the headline N's
+and any specific means do not.
+-------------------------------------------------------------------
+Suggested image filenames to drop into this folder:
+fig-hero.jpg, fig-context.jpg, fig-aggregated.png,
+fig-results.png, fig-vr-snow.jpg
+===================================================================== --&gt;
+&lt;h2 id="tldr"&gt;TL;DR&lt;/h2&gt;
+&lt;p&gt;Stick your bare hand into a VR scene and feel snowflakes land and melt on your palm. Or rain droplets — cold, scattered, with a tiny tactile pulse for each one. &lt;strong&gt;Snow&lt;/strong&gt; is a mid-air haptic system that pairs six Peltier modules with an ultrasound haptic display to project simultaneous &lt;strong&gt;cold + touch&lt;/strong&gt; cues onto your skin without contact. Two studies confirmed that an &lt;em&gt;aggregated&lt;/em&gt; haptic scheme (one strong cue summarizing many particles) feels more realistic than rendering every flake individually — a counter-intuitive but durable finding that should change how VR weather is designed.&lt;/p&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;Role.&lt;/strong&gt; First author. Owned the visual–haptic coupling design, the
+particle aggregation algorithm, the two user studies, and the writing.
+Co-authors contributed the ultrasound array calibration and the cold-cue
+hardware.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Venue&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;IMWUT 2024 (ACM IMWUT / Ubicomp)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Team&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Me (lead) · Yatharth Singhal · Prof. Jin Ryong Kim (advisor)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Timeline&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;~10 months — concept, hardware, two studies, journal-length write-up&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Custom Peltier-cooled airflow rig, Ultraleap STRATOS array, Unity 2022, Meta Quest Pro, Python (data)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Methods&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Within-subject UX study, realism + presence ratings, qualitative interviews&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- IMAGE: hero shot of a hand under the rig with VR snowflakes overlaid --&gt;
+&lt;!-- ![Snow — a hand catches a virtual snowflake under the mid-air rig](fig-hero.jpg) --&gt;
+&lt;hr&gt;
+&lt;h2 id="01--context"&gt;01 · Context&lt;/h2&gt;
+&lt;p&gt;VR weather is &lt;em&gt;visually&lt;/em&gt; good and &lt;em&gt;somatically&lt;/em&gt; nothing. Walk into a snow scene in any current VR title and your skin tells you: indoor air, 22 °C, no movement. There&amp;rsquo;s a sensory gap between what your eyes accept and what your body can confirm.&lt;/p&gt;
+&lt;p&gt;Existing approaches don&amp;rsquo;t fix it well:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Wearables (gloves / sleeves).&lt;/strong&gt; Heavy, charge-hungry, and they break the magic of a &lt;em&gt;bare&lt;/em&gt; hand reaching into the scene.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mid-air ultrasound alone.&lt;/strong&gt; Gives a tactile pulse but no temperature — a snowflake without the cold reads as a tiny rubber bullet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cold-air-only rigs.&lt;/strong&gt; Give temperature without spatial precision — feels like an air conditioner, not weather.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;The gap I wanted to close:&lt;/strong&gt; &lt;em&gt;cold + touch + spatially registered to where the visual particle is.&lt;/em&gt; Without contact. With bare hands.&lt;/p&gt;
+&lt;!-- IMAGE: photo — bare hand under the rig, no glove, no controller --&gt;
+&lt;!-- ![No glove, no controller — the bare hand is the design unit](fig-context.jpg) --&gt;
+&lt;hr&gt;
+&lt;h2 id="02--approach"&gt;02 · Approach&lt;/h2&gt;
+&lt;p&gt;I framed the design as a stack of three layers, each independently testable.&lt;/p&gt;
+&lt;h3 id="layer-1--the-rig"&gt;Layer 1 — the rig&lt;/h3&gt;
+&lt;p&gt;Six Peltier modules cool a column of air. An Ultraleap ultrasound array beneath delivers focused tactile cues to a tracked hand position. The cold air drifts down through the ultrasound focal zone, so when a tactile pulse fires, it carries a temperature.&lt;/p&gt;
+&lt;h3 id="layer-2--the-visualhaptic-mapping"&gt;Layer 2 — the visual–haptic mapping&lt;/h3&gt;
+&lt;p&gt;Each visible snowflake or raindrop in the VR scene is a particle with a position, velocity, and lifetime. When a particle&amp;rsquo;s path intersects the user&amp;rsquo;s palm, the system fires a coupled cue: a short tactile pulse paired with a cold magnitude scaled by particle size. &lt;em&gt;(swap the bracketed values for your measured pulse durations when filling this in.)&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="layer-3--the-aggregation-question"&gt;Layer 3 — the &lt;em&gt;aggregation&lt;/em&gt; question&lt;/h3&gt;
+&lt;p&gt;Real snow doesn&amp;rsquo;t land flake-by-flake. It lands &lt;em&gt;as a snowfall&lt;/em&gt; — many flakes at once, each barely perceptible individually, summing to an unmistakable feeling. Should the haptic rendering be 1-flake-per-pulse, or should it aggregate?&lt;/p&gt;
+&lt;p&gt;I built three rendering schemes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Per-particle&lt;/strong&gt; — one tactile + cold pulse per visible flake.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampled&lt;/strong&gt; — random subsample of flakes generate cues.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aggregated&lt;/strong&gt; — cue strength scales with the &lt;em&gt;number&lt;/em&gt; of flakes intersecting the hand in a window, but only one cue fires.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- IMAGE: diagram showing the three rendering schemes --&gt;
+&lt;!-- ![Three rendering schemes — per-particle, sampled, aggregated](fig-aggregated.png) --&gt;
+&lt;hr&gt;
+&lt;h2 id="03--user-studies"&gt;03 · User studies&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;(replace bracketed values with the real numbers from your IMWUT paper.)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Study 1 — modality contribution (N=[XX], within-subject).&lt;/strong&gt; Visual-only, visual+tactile, visual+cold, visual+cold-tactile, and a no-stimulus baseline. Measured: realism, presence, and qualitative comments.&lt;/p&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;Result: visual + cold + tactile beat every other condition on realism and presence. Visual + tactile alone was &lt;em&gt;worse&lt;/em&gt; than visual-only on realism — confirming that tactile-without-temperature reads as artificial.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Study 2 — rendering scheme (N=[XX], within-subject).&lt;/strong&gt; Per-particle vs. sampled vs. aggregated, both for snow and rain.&lt;/p&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;Result: aggregated &lt;strong&gt;won&lt;/strong&gt; on realism for both conditions. Per-particle felt &amp;ldquo;noisy&amp;rdquo; or &amp;ldquo;buzzy&amp;rdquo; in interviews. Several participants used the word &amp;ldquo;natural&amp;rdquo; for aggregated and &amp;ldquo;robotic&amp;rdquo; for per-particle.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!-- IMAGE: bar chart of realism ratings across modality conditions --&gt;
+&lt;!-- ![Modality study — realism ratings](fig-results.png) --&gt;
+&lt;hr&gt;
+&lt;h2 id="04--outcome"&gt;04 · Outcome&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Published in &lt;strong&gt;IMWUT&lt;/strong&gt; — ACM&amp;rsquo;s premier journal for ubiquitous and wearable interaction.&lt;/li&gt;
+&lt;li&gt;Two design guidelines extracted for future VR weather systems:
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Always co-render cold with tactile&lt;/strong&gt; for &amp;ldquo;wet&amp;rdquo; or &amp;ldquo;frozen&amp;rdquo; particles.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aggregate, don&amp;rsquo;t enumerate&lt;/strong&gt; — a single well-designed cue beats N small cues for ambient sensations.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="05--reflection"&gt;05 · Reflection&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;What I&amp;rsquo;d do differently.&lt;/strong&gt; Wind. Real snow comes with airflow that telegraphs weather &lt;em&gt;before&lt;/em&gt; the first flake lands. The current rig doesn&amp;rsquo;t move air — adding a small directional fan layer is the obvious next iteration.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Where this goes next.&lt;/strong&gt; The aggregation finding probably extends well beyond weather — it should hold for any &amp;ldquo;many-small-particles&amp;rdquo; sensation: sand, embers, leaves blown across the palm. I&amp;rsquo;d love to test that.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What this project taught me about experience design.&lt;/strong&gt; Realism is not fidelity. &lt;em&gt;Per-particle&lt;/em&gt; is more faithful to the simulation, and it feels worse. Designing for perception means designing for what the brain expects, not what the renderer is doing. That&amp;rsquo;s a UX principle, not a haptics principle, and it generalizes everywhere.&lt;/p&gt;
+&lt;!-- IMAGE: candid shot — participant smiling under the rig, snow particles visible --&gt;
+&lt;!-- ![Pilot session — the smile we were trying to design for](fig-vr-snow.jpg) --&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Paper, video, and full methodology linked above. If you want to talk haptic experience design —
+.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Thermal Masking: When the Illusion Takes Over the Real</title><link>https://example.com/publication/conference-paper-thermal-masking/</link><pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate><guid>https://example.com/publication/conference-paper-thermal-masking/</guid><description>&lt;div class="video-embed-wrapper"&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/GklwlCuPwv8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- =====================================================================
+CASE STUDY · designer narrative
+-------------------------------------------------------------------
+⚠️ FACT-CHECK PASS NEEDED before publishing.
+Items in [brackets] (e.g. [XX%]) are PLACEHOLDERS — replace with
+the real numbers from your CHI 2024 paper. The 24 cm distance is
+drawn from the abstract; everything else needs your numbers.
+-------------------------------------------------------------------
+Suggested image filenames to drop into this folder:
+fig-hero.jpg, fig-setup.jpg, fig-conditions.png,
+fig-distance.png, fig-cross-arm.jpg, fig-results.png
+===================================================================== --&gt;
+&lt;h2 id="tldr"&gt;TL;DR&lt;/h2&gt;
+&lt;p&gt;This is a perception study, not a product — but it&amp;rsquo;s the kind of study that &lt;strong&gt;unlocks products&lt;/strong&gt;. We discovered that under the right conditions, a vibration on your arm can completely &amp;ldquo;steal&amp;rdquo; a heat sensation from a thermal source up to &lt;strong&gt;24 cm away&lt;/strong&gt;, even &lt;em&gt;on the opposite side of the arm&lt;/em&gt;. For wearable haptic designers, that&amp;rsquo;s a fundamentally new degree of freedom: the heat source no longer has to live where the heat is felt. Three experiments, 60+ trials per participant, and a clean answer to &lt;em&gt;when&lt;/em&gt; the illusion holds and &lt;em&gt;when&lt;/em&gt; it breaks.&lt;/p&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;Role.&lt;/strong&gt; First author. I designed the three experiments, ran the data
+collection, did the statistics in R, and led the writing. My collaborators
+contributed the actuator hardware and theoretical framing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Venue&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;CHI 2024 (ACM Conference on Human Factors in Computing Systems)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Team&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Me (lead) · Yatharth Singhal · Hyunjae Gil · Prof. Jin Ryong Kim (advisor)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Timeline&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;~7 months — formative studies, 3 main experiments, paper&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Custom Peltier rig, voice-coil vibrotactile actuators, MATLAB control, R + JASP for stats&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Methods&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Within-subject psychophysics, mixed-effects models, IRB-approved&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- IMAGE: hero shot of the apparatus mounted on a participant's forearm --&gt;
+&lt;!-- ![The forearm rig used across all three experiments](fig-hero.jpg) --&gt;
+&lt;hr&gt;
+&lt;h2 id="01--context"&gt;01 · Context&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;re designing a thermal feedback device — a glove, a sleeve, a chair, a controller — the constraint that always wins is &lt;strong&gt;where you can mount the thermal cell&lt;/strong&gt;. Peltiers are bulky. They need heat sinks. They draw current. So you mount them where you have room, and the user feels them where you mounted them. Tough.&lt;/p&gt;
+&lt;p&gt;But there&amp;rsquo;s a twin to thermal referral called &lt;strong&gt;thermal masking&lt;/strong&gt;: when a vibrotactile cue is delivered next to a thermal stimulus, sometimes the thermal sensation doesn&amp;rsquo;t just &lt;em&gt;move&lt;/em&gt; — it disappears at the source and reappears entirely at the vibration site. We knew the phenomenon existed in psychophysics literature. What we didn&amp;rsquo;t know was its &lt;em&gt;envelope&lt;/em&gt; — the temperature range, the distance limit, the geometry it tolerates. Without those numbers, no designer can use it.&lt;/p&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;My question.&lt;/strong&gt; What&amp;rsquo;s the design budget? How hot, how cold, how far away can I put the heat source and still make the illusion land?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="02--approach"&gt;02 · Approach&lt;/h2&gt;
+&lt;p&gt;I broke the design budget into three orthogonal questions, each one a tightly controlled experiment:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Temperature.&lt;/strong&gt; Does masking work the same for warm, hot, and cold stimuli?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Distance.&lt;/strong&gt; How far apart can the thermal and tactile actuators be before the illusion collapses?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Geometry.&lt;/strong&gt; Does the masking only work on the same side of the limb, or can it cross the arm?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Each experiment ran on the same custom rig — a Peltier and a voice-coil vibrotactile actuator on adjustable tracks along a forearm cradle — so we could isolate one variable at a time.&lt;/p&gt;
+&lt;!-- IMAGE: diagram of the apparatus with adjustable thermal + tactile placements --&gt;
+&lt;!-- ![Apparatus schematic — adjustable thermal &amp; tactile positions](fig-setup.jpg) --&gt;
+&lt;hr&gt;
+&lt;h2 id="03--what-we-found"&gt;03 · What we found&lt;/h2&gt;
+&lt;h3 id="experiment-1--temperature-matters-more-than-expected"&gt;Experiment 1 — temperature matters more than expected&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Within-subject across warm, hot, and cold conditions.&lt;/strong&gt; &lt;em&gt;(replace bracketed numbers with the rates from your CHI paper.)&lt;/em&gt; Warm stimuli produced masking on &lt;strong&gt;[XX%]&lt;/strong&gt; of trials, dropping to &lt;strong&gt;[XX%]&lt;/strong&gt; for hot and &lt;strong&gt;[XX%]&lt;/strong&gt; for cold. The takeaway for designers: &lt;strong&gt;warm is the sweet spot.&lt;/strong&gt; If you&amp;rsquo;re trying to evoke &amp;ldquo;warm cup of coffee&amp;rdquo; or &amp;ldquo;ambient sun on skin,&amp;rdquo; masking is a generous tool. If you&amp;rsquo;re trying to evoke &amp;ldquo;open flame&amp;rdquo; or &amp;ldquo;ice cube,&amp;rdquo; you&amp;rsquo;ll need direct hardware.&lt;/p&gt;
+&lt;!-- IMAGE: bar chart — masking rate vs. temperature --&gt;
+&lt;!-- ![Masking rate plotted against stimulus temperature](fig-conditions.png) --&gt;
+&lt;h3 id="experiment-2--masking-carries-24-cm"&gt;Experiment 2 — masking carries 24 cm&lt;/h3&gt;
+&lt;p&gt;Masking remained reliable up to &lt;strong&gt;24 cm of separation&lt;/strong&gt; between the thermal and tactile sites — roughly elbow to wrist on most adults. Beyond that, the illusion dropped sharply. For a sleeve designer, this means &lt;em&gt;one&lt;/em&gt; thermal cell at the elbow can serve a tactile array all the way down the forearm.&lt;/p&gt;
+&lt;!-- IMAGE: line chart — masking rate vs. distance --&gt;
+&lt;!-- ![Masking rate vs. thermal-tactile distance](fig-distance.png) --&gt;
+&lt;h3 id="experiment-3--it-works-across-the-arm"&gt;Experiment 3 — it works across the arm&lt;/h3&gt;
+&lt;p&gt;The most surprising result. We placed the thermal actuator on the &lt;em&gt;outside&lt;/em&gt; of the forearm and the tactile actuator on the &lt;em&gt;inside&lt;/em&gt;. Conventional wisdom predicts the illusion shouldn&amp;rsquo;t work — there&amp;rsquo;s no shared receptive field. It worked anyway, and was &lt;strong&gt;higher under warm conditions&lt;/strong&gt; than under hot. The arm appears to integrate thermal and tactile signals at a higher level than the local skin patch.&lt;/p&gt;
+&lt;!-- IMAGE: photo — thermal on the outer arm, tactile on the inner arm --&gt;
+&lt;!-- ![Cross-arm placement in Experiment 3](fig-cross-arm.jpg) --&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;Design takeaway.&lt;/strong&gt; A wearable doesn&amp;rsquo;t need thermal cells on every surface. One well-placed warm source plus a tactile array gives you a continuous-feeling thermal field across the limb.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="04--outcome"&gt;04 · Outcome&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Accepted to &lt;strong&gt;CHI 2024&lt;/strong&gt; — flagship HCI venue.&lt;/li&gt;
+&lt;li&gt;The numbers from this paper became the &lt;strong&gt;design constants&lt;/strong&gt; for our follow-on projects: Fiery Hands (thermal glove) and the upper-body thermal sleeve study both quote these distance and temperature bounds directly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="05--reflection"&gt;05 · Reflection&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;What I&amp;rsquo;d do differently.&lt;/strong&gt; I&amp;rsquo;d add a &lt;em&gt;temporal&lt;/em&gt; dimension. All three experiments measured the illusion at a steady state. In real wearable use, sensations come and go — does masking survive a 0.5 s tactile pulse? A 100 ms pulse? That paper is on my next-year list.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What I underestimated.&lt;/strong&gt; How willing reviewers would be to accept the cross-arm result. I expected pushback — instead it became the most-cited finding. There&amp;rsquo;s a lesson there about leading with the &lt;em&gt;most counterintuitive&lt;/em&gt; finding rather than burying it in Experiment 3.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What this taught me as a researcher.&lt;/strong&gt; The most useful HCI papers aren&amp;rsquo;t the ones that show &amp;ldquo;we built X.&amp;rdquo; They&amp;rsquo;re the ones that quantify the &lt;em&gt;envelope&lt;/em&gt; — &lt;em&gt;here&amp;rsquo;s exactly when X works and when it breaks&lt;/em&gt; — because everything anyone builds afterwards uses your numbers. That&amp;rsquo;s what I tried to do here.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Full methodology and statistics in the paper. Happy to talk through the experimental design —
+.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Fabric Thermal Display using Ultrasonic Waves</title><link>https://example.com/publication/conference-paper-ultrasound-glove/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><guid>https://example.com/publication/conference-paper-ultrasound-glove/</guid><description>&lt;div class="video-embed-wrapper"&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/B5AjfdOlMEQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This paper presents a fabric-based thermal display combining polyester fabric with thermally-conductive materials (copper, aluminum) and an ultrasound haptic display. Two user studies show that polyester+metal outperforms fabric-only conditions in thermal perception and level identification. A VR glove prototype validates the approach for XR interaction. Published in &lt;strong&gt;ISMAR 2023&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Upper Body Thermal Referral and Tactile Masking for Localized Feedback</title><link>https://example.com/publication/journal-article-upperbody/</link><pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate><guid>https://example.com/publication/journal-article-upperbody/</guid><description>&lt;div class="video-embed-wrapper"&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/cgvujLOi6pc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This paper investigates the effects of thermal referral and tactile masking illusions to achieve localized thermal feedback on the upper body. Using a 2D array of sixteen vibrotactile actuators (4×4) with four thermal actuators, we explore how cross-modal thermo-tactile interaction can deliver localized thermal sensations across the user&amp;rsquo;s back — enabling wearable designs that achieve greater user performance with fewer thermal actuators.&lt;/p&gt;
+&lt;p&gt;Published in &lt;strong&gt;IEEE Transactions on Visualization and Computer Graphics (TVCG)&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Mid-Air Thermo-Tactile Feedback using Ultrasound Haptic Display</title><link>https://example.com/publication/conference-paper-fire/</link><pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate><guid>https://example.com/publication/conference-paper-fire/</guid><description>&lt;div class="video-embed-wrapper"&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/CKSEIOUzGK0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This paper presents a mid-air thermo-tactile feedback system using an ultrasound haptic display. A proof-of-concept open-top chamber with heat modules generates thermal and vibrotactile cues simultaneously in mid-air — confirmed up to 54.2°C with pattern identification accuracy matching contact-based thresholds. Published in &lt;strong&gt;VRST 2021&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Electromagnetic Compatibility Analysis of an Induction Motor Drive With Integrated Power Converter</title><link>https://example.com/publication/journal-paper-motor-converter/</link><pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate><guid>https://example.com/publication/journal-paper-motor-converter/</guid><description/></item></channel></rss>

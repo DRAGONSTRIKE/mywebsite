@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VR | Haokun Wang</title><link>https://example.com/tags/vr/</link><atom:link href="https://example.com/tags/vr/index.xml" rel="self" type="application/rss+xml"/><description>VR</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 15 May 2024 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/icon_hu_4bc81f2edf496b34.png</url><title>VR</title><link>https://example.com/tags/vr/</link></image><item><title>Let It Snow: Designing Snowfall Experience in VR</title><link>https://example.com/publication/journal-article-snow/</link><pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate><guid>https://example.com/publication/journal-article-snow/</guid><description>&lt;div class="video-embed-wrapper"&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/CSaMbZ8epa4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- =====================================================================
+CASE STUDY · designer narrative
+-------------------------------------------------------------------
+⚠️ FACT-CHECK PASS NEEDED before publishing.
+Items in [brackets] (e.g. [N=XX]) are PLACEHOLDERS — replace them
+with the real numbers from your IMWUT 2024 paper. The framing of
+"aggregated &gt; per-particle" and "cold+tactile beats other modality
+conditions" comes directly from your abstract; the headline N's
+and any specific means do not.
+-------------------------------------------------------------------
+Suggested image filenames to drop into this folder:
+fig-hero.jpg, fig-context.jpg, fig-aggregated.png,
+fig-results.png, fig-vr-snow.jpg
+===================================================================== --&gt;
+&lt;h2 id="tldr"&gt;TL;DR&lt;/h2&gt;
+&lt;p&gt;Stick your bare hand into a VR scene and feel snowflakes land and melt on your palm. Or rain droplets — cold, scattered, with a tiny tactile pulse for each one. &lt;strong&gt;Snow&lt;/strong&gt; is a mid-air haptic system that pairs six Peltier modules with an ultrasound haptic display to project simultaneous &lt;strong&gt;cold + touch&lt;/strong&gt; cues onto your skin without contact. Two studies confirmed that an &lt;em&gt;aggregated&lt;/em&gt; haptic scheme (one strong cue summarizing many particles) feels more realistic than rendering every flake individually — a counter-intuitive but durable finding that should change how VR weather is designed.&lt;/p&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;Role.&lt;/strong&gt; First author. Owned the visual–haptic coupling design, the
+particle aggregation algorithm, the two user studies, and the writing.
+Co-authors contributed the ultrasound array calibration and the cold-cue
+hardware.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Venue&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;IMWUT 2024 (ACM IMWUT / Ubicomp)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Team&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Me (lead) · Yatharth Singhal · Prof. Jin Ryong Kim (advisor)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Timeline&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;~10 months — concept, hardware, two studies, journal-length write-up&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Custom Peltier-cooled airflow rig, Ultraleap STRATOS array, Unity 2022, Meta Quest Pro, Python (data)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Methods&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Within-subject UX study, realism + presence ratings, qualitative interviews&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- IMAGE: hero shot of a hand under the rig with VR snowflakes overlaid --&gt;
+&lt;!-- ![Snow — a hand catches a virtual snowflake under the mid-air rig](fig-hero.jpg) --&gt;
+&lt;hr&gt;
+&lt;h2 id="01--context"&gt;01 · Context&lt;/h2&gt;
+&lt;p&gt;VR weather is &lt;em&gt;visually&lt;/em&gt; good and &lt;em&gt;somatically&lt;/em&gt; nothing. Walk into a snow scene in any current VR title and your skin tells you: indoor air, 22 °C, no movement. There&amp;rsquo;s a sensory gap between what your eyes accept and what your body can confirm.&lt;/p&gt;
+&lt;p&gt;Existing approaches don&amp;rsquo;t fix it well:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Wearables (gloves / sleeves).&lt;/strong&gt; Heavy, charge-hungry, and they break the magic of a &lt;em&gt;bare&lt;/em&gt; hand reaching into the scene.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mid-air ultrasound alone.&lt;/strong&gt; Gives a tactile pulse but no temperature — a snowflake without the cold reads as a tiny rubber bullet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cold-air-only rigs.&lt;/strong&gt; Give temperature without spatial precision — feels like an air conditioner, not weather.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;The gap I wanted to close:&lt;/strong&gt; &lt;em&gt;cold + touch + spatially registered to where the visual particle is.&lt;/em&gt; Without contact. With bare hands.&lt;/p&gt;
+&lt;!-- IMAGE: photo — bare hand under the rig, no glove, no controller --&gt;
+&lt;!-- ![No glove, no controller — the bare hand is the design unit](fig-context.jpg) --&gt;
+&lt;hr&gt;
+&lt;h2 id="02--approach"&gt;02 · Approach&lt;/h2&gt;
+&lt;p&gt;I framed the design as a stack of three layers, each independently testable.&lt;/p&gt;
+&lt;h3 id="layer-1--the-rig"&gt;Layer 1 — the rig&lt;/h3&gt;
+&lt;p&gt;Six Peltier modules cool a column of air. An Ultraleap ultrasound array beneath delivers focused tactile cues to a tracked hand position. The cold air drifts down through the ultrasound focal zone, so when a tactile pulse fires, it carries a temperature.&lt;/p&gt;
+&lt;h3 id="layer-2--the-visualhaptic-mapping"&gt;Layer 2 — the visual–haptic mapping&lt;/h3&gt;
+&lt;p&gt;Each visible snowflake or raindrop in the VR scene is a particle with a position, velocity, and lifetime. When a particle&amp;rsquo;s path intersects the user&amp;rsquo;s palm, the system fires a coupled cue: a short tactile pulse paired with a cold magnitude scaled by particle size. &lt;em&gt;(swap the bracketed values for your measured pulse durations when filling this in.)&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="layer-3--the-aggregation-question"&gt;Layer 3 — the &lt;em&gt;aggregation&lt;/em&gt; question&lt;/h3&gt;
+&lt;p&gt;Real snow doesn&amp;rsquo;t land flake-by-flake. It lands &lt;em&gt;as a snowfall&lt;/em&gt; — many flakes at once, each barely perceptible individually, summing to an unmistakable feeling. Should the haptic rendering be 1-flake-per-pulse, or should it aggregate?&lt;/p&gt;
+&lt;p&gt;I built three rendering schemes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Per-particle&lt;/strong&gt; — one tactile + cold pulse per visible flake.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sampled&lt;/strong&gt; — random subsample of flakes generate cues.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aggregated&lt;/strong&gt; — cue strength scales with the &lt;em&gt;number&lt;/em&gt; of flakes intersecting the hand in a window, but only one cue fires.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- IMAGE: diagram showing the three rendering schemes --&gt;
+&lt;!-- ![Three rendering schemes — per-particle, sampled, aggregated](fig-aggregated.png) --&gt;
+&lt;hr&gt;
+&lt;h2 id="03--user-studies"&gt;03 · User studies&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;(replace bracketed values with the real numbers from your IMWUT paper.)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Study 1 — modality contribution (N=[XX], within-subject).&lt;/strong&gt; Visual-only, visual+tactile, visual+cold, visual+cold-tactile, and a no-stimulus baseline. Measured: realism, presence, and qualitative comments.&lt;/p&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;Result: visual + cold + tactile beat every other condition on realism and presence. Visual + tactile alone was &lt;em&gt;worse&lt;/em&gt; than visual-only on realism — confirming that tactile-without-temperature reads as artificial.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Study 2 — rendering scheme (N=[XX], within-subject).&lt;/strong&gt; Per-particle vs. sampled vs. aggregated, both for snow and rain.&lt;/p&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;Result: aggregated &lt;strong&gt;won&lt;/strong&gt; on realism for both conditions. Per-particle felt &amp;ldquo;noisy&amp;rdquo; or &amp;ldquo;buzzy&amp;rdquo; in interviews. Several participants used the word &amp;ldquo;natural&amp;rdquo; for aggregated and &amp;ldquo;robotic&amp;rdquo; for per-particle.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!-- IMAGE: bar chart of realism ratings across modality conditions --&gt;
+&lt;!-- ![Modality study — realism ratings](fig-results.png) --&gt;
+&lt;hr&gt;
+&lt;h2 id="04--outcome"&gt;04 · Outcome&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Published in &lt;strong&gt;IMWUT&lt;/strong&gt; — ACM&amp;rsquo;s premier journal for ubiquitous and wearable interaction.&lt;/li&gt;
+&lt;li&gt;Two design guidelines extracted for future VR weather systems:
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Always co-render cold with tactile&lt;/strong&gt; for &amp;ldquo;wet&amp;rdquo; or &amp;ldquo;frozen&amp;rdquo; particles.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aggregate, don&amp;rsquo;t enumerate&lt;/strong&gt; — a single well-designed cue beats N small cues for ambient sensations.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="05--reflection"&gt;05 · Reflection&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;What I&amp;rsquo;d do differently.&lt;/strong&gt; Wind. Real snow comes with airflow that telegraphs weather &lt;em&gt;before&lt;/em&gt; the first flake lands. The current rig doesn&amp;rsquo;t move air — adding a small directional fan layer is the obvious next iteration.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Where this goes next.&lt;/strong&gt; The aggregation finding probably extends well beyond weather — it should hold for any &amp;ldquo;many-small-particles&amp;rdquo; sensation: sand, embers, leaves blown across the palm. I&amp;rsquo;d love to test that.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What this project taught me about experience design.&lt;/strong&gt; Realism is not fidelity. &lt;em&gt;Per-particle&lt;/em&gt; is more faithful to the simulation, and it feels worse. Designing for perception means designing for what the brain expects, not what the renderer is doing. That&amp;rsquo;s a UX principle, not a haptics principle, and it generalizes everywhere.&lt;/p&gt;
+&lt;!-- IMAGE: candid shot — participant smiling under the rig, snow particles visible --&gt;
+&lt;!-- ![Pilot session — the smile we were trying to design for](fig-vr-snow.jpg) --&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Paper, video, and full methodology linked above. If you want to talk haptic experience design —
+.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Upper Body Thermal Referral and Tactile Masking for Localized Feedback</title><link>https://example.com/publication/journal-article-upperbody/</link><pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate><guid>https://example.com/publication/journal-article-upperbody/</guid><description>&lt;div class="video-embed-wrapper"&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/cgvujLOi6pc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This paper investigates the effects of thermal referral and tactile masking illusions to achieve localized thermal feedback on the upper body. Using a 2D array of sixteen vibrotactile actuators (4×4) with four thermal actuators, we explore how cross-modal thermo-tactile interaction can deliver localized thermal sensations across the user&amp;rsquo;s back — enabling wearable designs that achieve greater user performance with fewer thermal actuators.&lt;/p&gt;
+&lt;p&gt;Published in &lt;strong&gt;IEEE Transactions on Visualization and Computer Graphics (TVCG)&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Mid-Air Thermo-Tactile Feedback using Ultrasound Haptic Display</title><link>https://example.com/publication/conference-paper-fire/</link><pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate><guid>https://example.com/publication/conference-paper-fire/</guid><description>&lt;div class="video-embed-wrapper"&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/CKSEIOUzGK0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This paper presents a mid-air thermo-tactile feedback system using an ultrasound haptic display. A proof-of-concept open-top chamber with heat modules generates thermal and vibrotactile cues simultaneously in mid-air — confirmed up to 54.2°C with pattern identification accuracy matching contact-based thresholds. Published in &lt;strong&gt;VRST 2021&lt;/strong&gt;.&lt;/p&gt;</description></item></channel></rss>

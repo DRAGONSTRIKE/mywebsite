@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Haptics | Haokun Wang</title><link>https://example.com/tags/haptics/</link><atom:link href="https://example.com/tags/haptics/index.xml" rel="self" type="application/rss+xml"/><description>Haptics</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 11 Oct 2024 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/icon_hu_4bc81f2edf496b34.png</url><title>Haptics</title><link>https://example.com/tags/haptics/</link></image><item><title>Thermal In Motion: Designing Thermal Flow Illusions with Tactile and Thermal Interaction</title><link>https://example.com/publication/conference-paper-thermal-motion/</link><pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate><guid>https://example.com/publication/conference-paper-thermal-motion/</guid><description>&lt;div class="video-embed-wrapper"&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/n2H_ylyzcbY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This study presents a novel method for creating moving thermal sensations by integrating the thermal referral illusion with tactile motion. Three experiments on human forearms identify speed thresholds for perceived thermal motion and validate the approach in VR interaction scenarios. Published in &lt;strong&gt;UIST 2024&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Thermal Masking: When the Illusion Takes Over the Real</title><link>https://example.com/publication/conference-paper-thermal-masking/</link><pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate><guid>https://example.com/publication/conference-paper-thermal-masking/</guid><description>&lt;div class="video-embed-wrapper"&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/GklwlCuPwv8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- =====================================================================
+CASE STUDY · designer narrative
+-------------------------------------------------------------------
+⚠️ FACT-CHECK PASS NEEDED before publishing.
+Items in [brackets] (e.g. [XX%]) are PLACEHOLDERS — replace with
+the real numbers from your CHI 2024 paper. The 24 cm distance is
+drawn from the abstract; everything else needs your numbers.
+-------------------------------------------------------------------
+Suggested image filenames to drop into this folder:
+fig-hero.jpg, fig-setup.jpg, fig-conditions.png,
+fig-distance.png, fig-cross-arm.jpg, fig-results.png
+===================================================================== --&gt;
+&lt;h2 id="tldr"&gt;TL;DR&lt;/h2&gt;
+&lt;p&gt;This is a perception study, not a product — but it&amp;rsquo;s the kind of study that &lt;strong&gt;unlocks products&lt;/strong&gt;. We discovered that under the right conditions, a vibration on your arm can completely &amp;ldquo;steal&amp;rdquo; a heat sensation from a thermal source up to &lt;strong&gt;24 cm away&lt;/strong&gt;, even &lt;em&gt;on the opposite side of the arm&lt;/em&gt;. For wearable haptic designers, that&amp;rsquo;s a fundamentally new degree of freedom: the heat source no longer has to live where the heat is felt. Three experiments, 60+ trials per participant, and a clean answer to &lt;em&gt;when&lt;/em&gt; the illusion holds and &lt;em&gt;when&lt;/em&gt; it breaks.&lt;/p&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;Role.&lt;/strong&gt; First author. I designed the three experiments, ran the data
+collection, did the statistics in R, and led the writing. My collaborators
+contributed the actuator hardware and theoretical framing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Venue&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;CHI 2024 (ACM Conference on Human Factors in Computing Systems)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Team&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Me (lead) · Yatharth Singhal · Hyunjae Gil · Prof. Jin Ryong Kim (advisor)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Timeline&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;~7 months — formative studies, 3 main experiments, paper&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Custom Peltier rig, voice-coil vibrotactile actuators, MATLAB control, R + JASP for stats&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Methods&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Within-subject psychophysics, mixed-effects models, IRB-approved&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- IMAGE: hero shot of the apparatus mounted on a participant's forearm --&gt;
+&lt;!-- ![The forearm rig used across all three experiments](fig-hero.jpg) --&gt;
+&lt;hr&gt;
+&lt;h2 id="01--context"&gt;01 · Context&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;re designing a thermal feedback device — a glove, a sleeve, a chair, a controller — the constraint that always wins is &lt;strong&gt;where you can mount the thermal cell&lt;/strong&gt;. Peltiers are bulky. They need heat sinks. They draw current. So you mount them where you have room, and the user feels them where you mounted them. Tough.&lt;/p&gt;
+&lt;p&gt;But there&amp;rsquo;s a twin to thermal referral called &lt;strong&gt;thermal masking&lt;/strong&gt;: when a vibrotactile cue is delivered next to a thermal stimulus, sometimes the thermal sensation doesn&amp;rsquo;t just &lt;em&gt;move&lt;/em&gt; — it disappears at the source and reappears entirely at the vibration site. We knew the phenomenon existed in psychophysics literature. What we didn&amp;rsquo;t know was its &lt;em&gt;envelope&lt;/em&gt; — the temperature range, the distance limit, the geometry it tolerates. Without those numbers, no designer can use it.&lt;/p&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;My question.&lt;/strong&gt; What&amp;rsquo;s the design budget? How hot, how cold, how far away can I put the heat source and still make the illusion land?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="02--approach"&gt;02 · Approach&lt;/h2&gt;
+&lt;p&gt;I broke the design budget into three orthogonal questions, each one a tightly controlled experiment:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Temperature.&lt;/strong&gt; Does masking work the same for warm, hot, and cold stimuli?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Distance.&lt;/strong&gt; How far apart can the thermal and tactile actuators be before the illusion collapses?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Geometry.&lt;/strong&gt; Does the masking only work on the same side of the limb, or can it cross the arm?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Each experiment ran on the same custom rig — a Peltier and a voice-coil vibrotactile actuator on adjustable tracks along a forearm cradle — so we could isolate one variable at a time.&lt;/p&gt;
+&lt;!-- IMAGE: diagram of the apparatus with adjustable thermal + tactile placements --&gt;
+&lt;!-- ![Apparatus schematic — adjustable thermal &amp; tactile positions](fig-setup.jpg) --&gt;
+&lt;hr&gt;
+&lt;h2 id="03--what-we-found"&gt;03 · What we found&lt;/h2&gt;
+&lt;h3 id="experiment-1--temperature-matters-more-than-expected"&gt;Experiment 1 — temperature matters more than expected&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Within-subject across warm, hot, and cold conditions.&lt;/strong&gt; &lt;em&gt;(replace bracketed numbers with the rates from your CHI paper.)&lt;/em&gt; Warm stimuli produced masking on &lt;strong&gt;[XX%]&lt;/strong&gt; of trials, dropping to &lt;strong&gt;[XX%]&lt;/strong&gt; for hot and &lt;strong&gt;[XX%]&lt;/strong&gt; for cold. The takeaway for designers: &lt;strong&gt;warm is the sweet spot.&lt;/strong&gt; If you&amp;rsquo;re trying to evoke &amp;ldquo;warm cup of coffee&amp;rdquo; or &amp;ldquo;ambient sun on skin,&amp;rdquo; masking is a generous tool. If you&amp;rsquo;re trying to evoke &amp;ldquo;open flame&amp;rdquo; or &amp;ldquo;ice cube,&amp;rdquo; you&amp;rsquo;ll need direct hardware.&lt;/p&gt;
+&lt;!-- IMAGE: bar chart — masking rate vs. temperature --&gt;
+&lt;!-- ![Masking rate plotted against stimulus temperature](fig-conditions.png) --&gt;
+&lt;h3 id="experiment-2--masking-carries-24-cm"&gt;Experiment 2 — masking carries 24 cm&lt;/h3&gt;
+&lt;p&gt;Masking remained reliable up to &lt;strong&gt;24 cm of separation&lt;/strong&gt; between the thermal and tactile sites — roughly elbow to wrist on most adults. Beyond that, the illusion dropped sharply. For a sleeve designer, this means &lt;em&gt;one&lt;/em&gt; thermal cell at the elbow can serve a tactile array all the way down the forearm.&lt;/p&gt;
+&lt;!-- IMAGE: line chart — masking rate vs. distance --&gt;
+&lt;!-- ![Masking rate vs. thermal-tactile distance](fig-distance.png) --&gt;
+&lt;h3 id="experiment-3--it-works-across-the-arm"&gt;Experiment 3 — it works across the arm&lt;/h3&gt;
+&lt;p&gt;The most surprising result. We placed the thermal actuator on the &lt;em&gt;outside&lt;/em&gt; of the forearm and the tactile actuator on the &lt;em&gt;inside&lt;/em&gt;. Conventional wisdom predicts the illusion shouldn&amp;rsquo;t work — there&amp;rsquo;s no shared receptive field. It worked anyway, and was &lt;strong&gt;higher under warm conditions&lt;/strong&gt; than under hot. The arm appears to integrate thermal and tactile signals at a higher level than the local skin patch.&lt;/p&gt;
+&lt;!-- IMAGE: photo — thermal on the outer arm, tactile on the inner arm --&gt;
+&lt;!-- ![Cross-arm placement in Experiment 3](fig-cross-arm.jpg) --&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;Design takeaway.&lt;/strong&gt; A wearable doesn&amp;rsquo;t need thermal cells on every surface. One well-placed warm source plus a tactile array gives you a continuous-feeling thermal field across the limb.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="04--outcome"&gt;04 · Outcome&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Accepted to &lt;strong&gt;CHI 2024&lt;/strong&gt; — flagship HCI venue.&lt;/li&gt;
+&lt;li&gt;The numbers from this paper became the &lt;strong&gt;design constants&lt;/strong&gt; for our follow-on projects: Fiery Hands (thermal glove) and the upper-body thermal sleeve study both quote these distance and temperature bounds directly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="05--reflection"&gt;05 · Reflection&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;What I&amp;rsquo;d do differently.&lt;/strong&gt; I&amp;rsquo;d add a &lt;em&gt;temporal&lt;/em&gt; dimension. All three experiments measured the illusion at a steady state. In real wearable use, sensations come and go — does masking survive a 0.5 s tactile pulse? A 100 ms pulse? That paper is on my next-year list.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What I underestimated.&lt;/strong&gt; How willing reviewers would be to accept the cross-arm result. I expected pushback — instead it became the most-cited finding. There&amp;rsquo;s a lesson there about leading with the &lt;em&gt;most counterintuitive&lt;/em&gt; finding rather than burying it in Experiment 3.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What this taught me as a researcher.&lt;/strong&gt; The most useful HCI papers aren&amp;rsquo;t the ones that show &amp;ldquo;we built X.&amp;rdquo; They&amp;rsquo;re the ones that quantify the &lt;em&gt;envelope&lt;/em&gt; — &lt;em&gt;here&amp;rsquo;s exactly when X works and when it breaks&lt;/em&gt; — because everything anyone builds afterwards uses your numbers. That&amp;rsquo;s what I tried to do here.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Full methodology and statistics in the paper. Happy to talk through the experimental design —
+.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Upper Body Thermal Referral and Tactile Masking for Localized Feedback</title><link>https://example.com/publication/journal-article-upperbody/</link><pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate><guid>https://example.com/publication/journal-article-upperbody/</guid><description>&lt;div class="video-embed-wrapper"&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/cgvujLOi6pc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This paper investigates the effects of thermal referral and tactile masking illusions to achieve localized thermal feedback on the upper body. Using a 2D array of sixteen vibrotactile actuators (4×4) with four thermal actuators, we explore how cross-modal thermo-tactile interaction can deliver localized thermal sensations across the user&amp;rsquo;s back — enabling wearable designs that achieve greater user performance with fewer thermal actuators.&lt;/p&gt;
+&lt;p&gt;Published in &lt;strong&gt;IEEE Transactions on Visualization and Computer Graphics (TVCG)&lt;/strong&gt;.&lt;/p&gt;</description></item></channel></rss>

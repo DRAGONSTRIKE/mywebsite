@@ -2070,6 +2070,9 @@
   .text-neutral-500 {
     color: var(--color-neutral-500);
   }
+  .text-neutral-600 {
+    color: var(--color-neutral-600);
+  }
   .text-neutral-700 {
     color: var(--color-neutral-700);
   }
@@ -3118,6 +3121,11 @@
   .rtl\:-rotate-180 {
     &:where(:dir(rtl), [dir="rtl"], [dir="rtl"] *) {
       rotate: calc(180deg * -1);
+    }
+  }
+  .rtl\:pr-4 {
+    &:where(:dir(rtl), [dir="rtl"], [dir="rtl"] *) {
+      padding-right: calc(var(--spacing) * 4);
     }
   }
   .rtl\:text-left {
