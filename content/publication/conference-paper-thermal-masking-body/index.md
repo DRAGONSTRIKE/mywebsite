@@ -28,10 +28,15 @@ tags:
 featured: false
 
 links:
+  - name: Paper
+    url: '/uploads/CHI2026_Thermal_Masking_Full_Body.pdf'
+    icon_pack: fas
+    icon: file-pdf
   - name: DOI
     url: 'https://doi.org/10.1145/3772318.3791601'
     icon_pack: fas
     icon: link
+url_video: 'https://www.youtube.com/watch?v=bMsI3wYG5c0'
 
 image:
   filename: ''
@@ -40,4 +45,8 @@ image:
   preview_only: true
 ---
 
-Published at **CHI 2026**.
+<div class="video-embed-wrapper">
+{{< youtube bMsI3wYG5c0 >}}
+</div>
+
+Published at **CHI 2026**. The full paper and demonstration video are available above.
