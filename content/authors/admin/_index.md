@@ -35,7 +35,7 @@ profiles:
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/haokun-wang-854548239/
   - icon: brands/github
-    url: https://github.com/DRAGONSTRIKE
+    url: https://github.com/whk-irl
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=AzitNLgAAAAJ&hl=en&oi=ao
   - icon: academicons/orcid
