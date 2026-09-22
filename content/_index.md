@@ -38,7 +38,7 @@ sections:
     content:
       title: Selected Work
       subtitle: ""
-      text: "Research-driven AR/VR interactions, hardware prototyping, and user studies. Each project is shipped end-to-end — from concept through fabrication and evaluation — and published at top HCI venues (CHI, UIST, IEEE VR, ISMAR)."
+      text: "Research across medical physics, haptics, extended reality, and human-centered technology. Each project combines engineering design, experimental evaluation, and interdisciplinary research."
       filters:
         folders:
           - publication
@@ -69,13 +69,13 @@ sections:
       title: Approach
       subtitle: ""
       text: |
-        I work at the seam between **physical hardware and digital interaction**, designing
-        wearable haptics, AR/VR feedback systems, and the studies that prove they work.
+        I work at the seam between **physical hardware and human-centered technology**, developing
+        medical-physics, haptics, and XR systems and evaluating them through rigorous experiments.
 
-        - **Research & framing.** Literature review, competitive teardown, formative interviews to scope a real problem.
-        - **Prototyping.** Rapid hardware mockups (thermal arrays, ultrasound rigs, gloves, EMG straps) paired with Unity/Unreal interaction prototypes.
-        - **User testing.** Within-subject studies, IRB-approved protocols, mixed-methods analysis (quant + think-aloud).
-        - **Communication.** Translating findings into design implications, papers, and deck-ready visuals for stakeholders.
+        - **Engineering.** Custom instrumentation, embedded systems, PCB design, computational modeling, and experimental platforms.
+        - **Human-centered evaluation.** Human-subject research, psychophysics, quantitative analysis, and usability studies.
+        - **Translation.** Applying interdisciplinary methods to radiation oncology technology, medical imaging, haptics, and XR.
+        - **Communication.** Turning findings into publications, demonstrations, and practical technologies.
     design:
       columns: "1"
       spacing:
@@ -109,12 +109,12 @@ sections:
   - block: markdown
     id: contact
     content:
-      title: Let's talk
+      title: Contact
       subtitle: ""
       text: |
-        Open to UI/UX, Product Design, and UX Research roles — full-time, internship, or consulting.
+        For research and collaboration inquiries, please get in touch.
 
-        [haokun.wang@utdallas.edu](mailto:haokun.wang@utdallas.edu) · [LinkedIn](https://www.linkedin.com/in/haokun-wang-854548239/) · [Google Scholar](https://scholar.google.com/citations?user=AzitNLgAAAAJ&hl=en)
+        [haokun.wang@utsouthwestern.edu](mailto:haokun.wang@utsouthwestern.edu) · [LinkedIn](https://www.linkedin.com/in/haokun-wang-854548239/) · [Google Scholar](https://scholar.google.com/citations?user=AzitNLgAAAAJ&hl=en)
     design:
       columns: "1"
 ---

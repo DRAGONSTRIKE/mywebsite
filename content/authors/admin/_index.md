@@ -20,17 +20,17 @@ superuser: true
 highlight_name: true
 
 # Role / position / tagline
-role: UX Researcher · AR/VR Interaction Designer
+role: Instructor · Medical Physics & Engineering
 
 # Organizations / Affiliations
 organizations:
-  - name: PhD Researcher, University of Texas at Dallas
-    url: https://mi-lab.io
+  - name: Department of Radiation Oncology, UT Southwestern Medical Center
+    url: https://www.utsouthwestern.edu/departments/radiation-oncology/
 
 # Social network links
 profiles:
   - icon: at-symbol
-    url: 'mailto:haokun.wang@utdallas.edu'
+    url: 'mailto:haokun.wang@utsouthwestern.edu'
     label: Email
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/haokun-wang-854548239/
@@ -43,17 +43,17 @@ profiles:
 
 # Three crisp pillars instead of long taglines
 interests:
-  - AR / VR Interaction
-  - Wearable Haptics & Hardware Prototyping
-  - User Research & Mixed-Methods Studies
+  - Radiation Oncology Technology & Medical Physics
+  - Medical Imaging & Instrumentation
+  - Human-Computer Interaction, Haptics & XR
 ---
 
 ## About
 
-I design and study **multisensory interactions for AR/VR** — building the wearable hardware, the interaction prototypes, and the user studies that show whether they actually work.
+I am an Instructor in **Radiation Oncology – Medical Physics & Engineering** at UT Southwestern Medical Center. My work combines medical physics, electrical engineering, human-computer interaction, haptics, and extended reality to develop and evaluate novel technologies.
 
-My research is published at the field's leading venues — **CHI, UIST, IEEE VR, ISMAR, IMWUT, TVCG** — and spans thermal feedback, ultrasound mid-air haptics, illusion-based perception, and motor-tactile integration.
+My research spans radiation oncology technology, medical imaging and instrumentation, wearable systems, thermal interfaces, and multimodal interaction. I design custom hardware and software, conduct quantitative and psychophysical studies, and translate interdisciplinary research into publications, demonstrations, and practical applications.
 
-I'm currently a PhD researcher at **UT Dallas** advised by Prof. Jin Ryong Kim. Outside the lab I prototype with electronics, write about interaction design, and am open to **UI/UX, Product Design, and UX Research** roles.
+Previously, I completed a PhD in Electrical Engineering at The University of Texas at Dallas. My work has appeared at **CHI, UIST, IEEE VR, ISMAR, IMWUT, TVCG**, and other leading venues.
 
-> Get in touch: [haokun.wang@utdallas.edu](mailto:haokun.wang@utdallas.edu)
+> Get in touch: [haokun.wang@utsouthwestern.edu](mailto:haokun.wang@utsouthwestern.edu)
